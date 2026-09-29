@@ -81,14 +81,14 @@ export const Hero3DDigitalTwinStage: React.FC<Hero3DDigitalTwinStageProps> = ({
       {/* ═══ 3D ANIMATED VIDEO DIGITAL TWIN STAGE ═══ */}
       <div 
         onClick={onNavigateToCockpit}
-        className="relative flex-1 w-full max-w-[680px] xl:max-w-[740px] cursor-pointer group"
+        className="relative flex-1 w-full max-w-[710px] xl:max-w-[775px] cursor-pointer group"
         title="Interactive 3D Digital Twin — Click to launch Cockpit Workspace"
       >
         {/* Volumetric background glow for deep immersion */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[540px] h-[480px] bg-gradient-to-tr from-[#0284C7]/20 via-[#EA580C]/20 to-transparent rounded-full blur-[100px] pointer-events-none" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[560px] h-[500px] bg-gradient-to-tr from-[#0284C7]/20 via-[#EA580C]/20 to-transparent rounded-full blur-[100px] pointer-events-none" />
 
-        {/* ═══ 3D RECIROCATING PUMPJACK VIDEO CORE ═══ */}
-        <div className="relative w-full h-[380px] sm:h-[450px] lg:h-[490px] overflow-hidden rounded-2xl flex items-center justify-center">
+        {/* ═══ 3D RECIROCATING PUMPJACK VIDEO CORE (+5% SCALE) ═══ */}
+        <div className="relative w-full h-[400px] sm:h-[475px] lg:h-[515px] overflow-hidden rounded-2xl flex items-center justify-center">
           <video
             ref={videoRef}
             src="/hero-animated-twin.mp4"
@@ -96,7 +96,7 @@ export const Hero3DDigitalTwinStage: React.FC<Hero3DDigitalTwinStageProps> = ({
             loop
             muted
             playsInline
-            className="w-full h-full object-contain mix-blend-screen scale-[1.5] sm:scale-[1.58] lg:scale-[1.62] translate-x-2 sm:translate-x-4 translate-y-3 pointer-events-auto transform-gpu"
+            className="w-full h-full object-contain mix-blend-screen scale-[1.57] sm:scale-[1.66] lg:scale-[1.70] translate-x-2 sm:translate-x-4 translate-y-3 pointer-events-auto transform-gpu"
           />
         </div>
 
