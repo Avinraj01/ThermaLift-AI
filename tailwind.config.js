@@ -32,8 +32,8 @@ export default {
       },
       fontFamily: {
         serif: ['Merriweather', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
-        montserrat: ['Montserrat Alternates', 'sans-serif'],
-        display: ['Montserrat Alternates', 'Inter', 'sans-serif'],
+        montserrat: ['Montserrat', 'Inter', 'sans-serif'],
+        display: ['Montserrat', 'Inter', 'sans-serif'],
         mono: ['JetBrains Mono', 'Space Grotesk', 'Courier New', 'monospace'],
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
       },

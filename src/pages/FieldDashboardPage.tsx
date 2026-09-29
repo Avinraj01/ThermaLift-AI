@@ -52,38 +52,34 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left: Editorial & Title */}
-            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-3.5">
-              {/* ThermaLift AI Brand Identity (Shifted Upwards) */}
-              <div className="select-none -mt-3 sm:-mt-4 pb-0.5">
+            <div className="lg:col-span-6 xl:col-span-6 flex flex-col justify-center space-y-4 pr-0 lg:pr-4">
+              {/* ThermaLift AI Brand Identity */}
+              <div className="select-none pb-1">
                 <img 
                   src="/thermalift-brand-clean-transparent.png" 
                   alt="ThermaLift AI — Synchronized • Predictive • Autonomous" 
-                  className="h-10 sm:h-12 md:h-14 w-auto object-contain drop-shadow-[0_4px_24px_rgba(58,117,181,0.25)] select-none" 
+                  className="h-11 sm:h-13 md:h-15 w-auto object-contain drop-shadow-[0_4px_24px_rgba(58,117,181,0.25)] select-none" 
                 />
               </div>
 
               {/* Structured Headline with ThermaLift AI Label */}
-              <div className="space-y-1">
+              <div className="space-y-1.5">
                 <div className="text-[11px] font-mono font-bold text-[#FF9500] tracking-widest uppercase flex items-center gap-2">
-                  <span className="w-4 h-[2px] bg-[#FF9500]" />
+                  <span className="w-5 h-[2px] bg-[#FF9500]" />
                   <span>THERMALIFT AI SYSTEM ARCHITECTURE</span>
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] xl:text-[3rem] font-black font-montserrat uppercase tracking-tight leading-[1.14] sm:leading-[1.16]">
-                  <span className="text-white block">INTEGRATED WELL-</span>
-                  <span className="text-white block">TO-SURFACE</span>
-                  <span className="text-white block">INTELLIGENCE</span>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.5rem] xl:text-[2.85rem] font-black font-montserrat uppercase tracking-tight leading-[1.12] space-y-1">
+                  <span className="text-white block">INTEGRATED WELL-TO-</span>
+                  <span className="text-white block">SURFACE INTELLIGENCE</span>
                   <span className="text-[#FF9500] block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
-                    FOR HEAVY CRUDE
-                  </span>
-                  <span className="text-[#FF9500] block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
-                    ASSET
+                    FOR HEAVY CRUDE ASSETS
                   </span>
                 </h1>
               </div>
 
-              {/* Editorial Body with Left Accent Rail (Shifted Downwards) */}
-              <div className="border-l-[3.5px] border-[#FF9500] pl-4 sm:pl-5 py-0.5 max-w-xl mt-4 sm:mt-5">
+              {/* Editorial Body with Left Accent Rail */}
+              <div className="border-l-[3.5px] border-[#FF9500] pl-4 sm:pl-5 py-1 max-w-xl mt-5">
                 <p className="text-xs sm:text-sm font-sans text-slate-200 leading-relaxed font-normal">
                   Empowering <strong className="text-white font-semibold">Oil India Limited's Baghewala Field</strong> with continuous, physics-informed optimization of <strong className="text-white font-medium">Cyclic Steam Stimulation (CSS)</strong> and <strong className="text-white font-medium">Sucker Rod Artificial Lift</strong>. Coupling 320°C thermal decay with 1D Gibbs wave mechanics to eliminate rod float, reduce lifting kWh/bbl by <strong className="text-emerald-400 font-bold">24.2%</strong>, and prevent catastrophic parted rod strings.
                 </p>
@@ -91,7 +87,7 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
             </div>
 
             {/* Right: 3D Digital Twin Stage matching Screenshot 2 */}
-            <div className="lg:col-span-7 xl:col-span-7 flex items-center justify-end relative mt-4 lg:mt-0">
+            <div className="lg:col-span-6 xl:col-span-6 flex items-center justify-end relative mt-4 lg:mt-0">
               <Hero3DDigitalTwinStage />
             </div>
           </div>
