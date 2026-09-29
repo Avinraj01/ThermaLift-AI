@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { WellInfo, TelemetryKPIs, ControlMode, AuditLogEntry, NavigationTab } from '../types';
 import { WellSelectorDropdown } from '../components/WellSelectorDropdown';
+import { Hero3DDigitalTwinStage } from '../components/Hero3DDigitalTwinStage';
 import { DEDICATED_MODULES } from '../data/modulesData';
 import { getPathForTab } from '../utils/router';
 
@@ -51,7 +52,7 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             {/* Left: Editorial & Title */}
-            <div className="lg:col-span-6 flex flex-col justify-center space-y-6">
+            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-6">
               {/* Badges Bar */}
               <div className="flex flex-wrap items-center gap-2.5">
                 <span className="text-[10px] font-mono px-3 py-1 rounded bg-[#FF9500]/15 text-[#FF9500] border border-[#FF9500]/35 font-bold uppercase tracking-widest flex items-center gap-2">
@@ -79,18 +80,20 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                   <span>THERMALIFT AI SYSTEM ARCHITECTURE</span>
                 </div>
 
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.1rem] font-black font-montserrat text-white uppercase tracking-tight leading-[1.08]">
-                  Integrated Well-to-Surface Intelligence
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-black font-montserrat text-white uppercase tracking-tight leading-[1.05]">
+                  INTEGRATED WELL-TO-<br />
+                  SURFACE INTELLIGENCE
                 </h1>
-                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.1rem] font-black font-montserrat uppercase tracking-tight leading-[1.08]">
+                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-black font-montserrat uppercase tracking-tight leading-[1.05]">
                   <span className="text-[#FF9500] inline-block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
-                    for Heavy Crude Assets
+                    FOR HEAVY CRUDE<br />
+                    ASSETS
                   </span>
                 </div>
               </div>
 
               {/* Editorial Body with Left Accent Rail for Structured Alignment */}
-              <div className="border-l-4 border-[#FF9500] pl-4 sm:pl-5 py-2 max-w-2xl bg-gradient-to-r from-[#FF9500]/10 via-[#FF9500]/5 to-transparent rounded-r-xl">
+              <div className="border-l-4 border-[#FF9500] pl-4 sm:pl-5 py-2.5 max-w-2xl bg-gradient-to-r from-[#FF9500]/10 via-[#FF9500]/5 to-transparent rounded-r-xl">
                 <p className="text-sm sm:text-base font-sans text-slate-200 leading-relaxed font-normal">
                   Empowering <strong className="text-white font-semibold">Oil India Limited's Baghewala Field</strong> with continuous, physics-informed optimization of <strong className="text-white font-medium">Cyclic Steam Stimulation (CSS)</strong> and <strong className="text-white font-medium">Sucker Rod Artificial Lift</strong>. Coupling 320°C thermal decay with 1D Gibbs wave mechanics to eliminate rod float, reduce lifting kWh/bbl by <strong className="text-emerald-400 font-bold">24.2%</strong>, and prevent catastrophic parted rod strings.
                 </p>
@@ -104,10 +107,10 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                     e.preventDefault();
                     onNavigate('COCKPIT');
                   }}
-                  className="akt-btn-primary flex items-center gap-2.5 text-xs font-mono font-bold shadow-lg cursor-pointer"
+                  className="px-5 py-3 rounded-lg bg-gradient-to-r from-[#FF9500] to-[#E68500] hover:from-[#FFA51A] hover:to-[#FF9500] text-white font-mono font-bold text-xs uppercase tracking-wider shadow-lg flex items-center gap-2 transition-all cursor-pointer"
                 >
                   <Layers className="w-4 h-4" />
-                  <span>Launch 3D Digital Twin</span>
+                  <span>LAUNCH 3D DIGITAL TWIN</span>
                   <ArrowRight className="w-4 h-4 ml-1" />
                 </a>
 
@@ -117,93 +120,25 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                     e.preventDefault();
                     onNavigate('DYNO');
                   }}
-                  className="akt-btn-outline flex items-center gap-2 text-xs font-mono font-bold cursor-pointer"
+                  className="px-4 py-3 rounded-lg bg-[#0E1524] hover:bg-[#152136] border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-mono font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer"
                 >
                   <Activity className="w-4 h-4 text-akt-cyan" />
-                  <span>Dyno Studio</span>
+                  <span>DYNO STUDIO</span>
                 </a>
 
                 <button
                   onClick={onOpenDocs}
-                  className="px-4 py-2.5 rounded-md bg-akt-surface/80 hover:bg-akt-surface border border-akt-border text-slate-300 hover:text-white text-xs font-mono transition-colors flex items-center gap-2 cursor-pointer"
+                  className="px-4 py-3 rounded-lg bg-[#0E1524] hover:bg-[#152136] border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-mono font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer"
                 >
-                  <BookOpen className="w-3.5 h-3.5 text-akt-amber" />
+                  <BookOpen className="w-3.5 h-3.5 text-slate-400" />
                   <span>Technical Specs</span>
                 </button>
               </div>
             </div>
 
-            {/* Right: Animated 3D Isometric Digital Twin & Telemetry Centerpiece */}
-            <div className="lg:col-span-6 flex flex-col items-center justify-center relative mt-6 lg:mt-0">
-              
-              {/* Volumetric Radial Ambient Lighting */}
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[460px] h-[460px] bg-gradient-to-tr from-[#0284C7]/25 via-[#EA580C]/20 to-sky-500/15 rounded-full blur-[100px] pointer-events-none animate-pulse-slow" />
-              
-              {/* Rotating Holographic Calibration Pedestal */}
-              <div className="absolute bottom-16 w-72 h-20 rounded-full border border-sky-500/25 border-dashed animate-[spin_24s_linear_infinite] pointer-events-none" />
-              <div className="absolute bottom-14 w-80 h-24 rounded-full border border-orange-500/15 border-dotted animate-[spin_32s_linear_infinite_reverse] pointer-events-none" />
-              
-              {/* Interactive 3D Model Floating Stage */}
-              <div className="relative z-10 w-full max-w-[460px] group">
-                
-                {/* Floating Telemetry Badge: Top Right */}
-                <div className="absolute -top-3 right-0 sm:right-2 z-20 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#0C121E]/95 border border-slate-700/90 shadow-xl backdrop-blur-md">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                  <span className="text-[10px] font-mono text-slate-200 font-bold tracking-wider">
-                    SCADA 100 Hz SYNC
-                  </span>
-                  <span className="text-slate-600">|</span>
-                  <span className="text-[10px] font-mono text-cyan-400 font-semibold">
-                    1,120m TVD
-                  </span>
-                </div>
-
-                {/* Floating Telemetry Badge: Bottom Left */}
-                <div className="absolute -bottom-3 left-0 sm:left-2 z-20 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#0C121E]/95 border border-orange-500/40 shadow-xl backdrop-blur-md">
-                  <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse" />
-                  <span className="text-[10px] font-mono text-orange-400 font-bold tracking-wider">
-                    CSS 320°C THERMAL FRONT
-                  </span>
-                </div>
-
-                {/* Main 3D Model with Floating Micro-Animation & 3D Perspective Glow */}
-                <div className="relative animate-float transition-all duration-500 group-hover:scale-[1.03]">
-                  <img
-                    src="/hero-twin-3d.png"
-                    alt="ThermaLift AI — 3D Subsurface Wellbore & Surface Pumping Unit Digital Twin"
-                    className="w-full h-auto object-contain filter drop-shadow-[0_24px_48px_rgba(0,0,0,0.75)] select-none pointer-events-auto cursor-pointer"
-                    onClick={() => onNavigate('COCKPIT')}
-                    title="Click to launch full interactive 3D Digital Twin workspace"
-                  />
-                  {/* Subtle interactive hover highlight */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-sky-500/0 via-transparent to-sky-400/0 group-hover:from-sky-500/5 group-hover:to-orange-500/5 rounded-3xl transition-all duration-500 pointer-events-none" />
-                </div>
-
-              </div>
-
-              {/* Quick Field KPI Highlights Underneath Model */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 w-full mt-7 z-10">
-                {[
-                  { label: 'CRUDE GRAVITY', value: '17–19°', unit: 'API', accent: '#FF9500' },
-                  { label: 'VERTICAL DEPTH', value: '1,120m', unit: 'TVD', accent: '#00D2FF' },
-                  { label: 'ANOMALY DETECT', value: '94%', unit: '1D-CNN', accent: '#10B981' },
-                  { label: 'ENERGY SAVED', value: '24.2%', unit: 'VFD', accent: '#FF6B00' },
-                ].map((stat, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-[#0C121D]/90 border border-akt-border hover:border-akt-borderHover rounded-lg p-2.5 transition-all text-center group shadow-md"
-                  >
-                    <div className="text-[9px] font-mono text-slate-400 uppercase tracking-wider">{stat.label}</div>
-                    <div className="flex items-baseline justify-center gap-1 my-0.5">
-                      <span className="text-base sm:text-lg font-black font-montserrat tracking-tight" style={{ color: stat.accent }}>
-                        {stat.value}
-                      </span>
-                      <span className="text-[9px] font-mono text-slate-400">{stat.unit}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
+            {/* Right: 3D Animated Video + 4 Stacked Cards + HUD Overlays */}
+            <div className="lg:col-span-7 xl:col-span-7 flex items-center justify-center relative mt-6 lg:mt-0">
+              <Hero3DDigitalTwinStage onNavigateToCockpit={() => onNavigate('COCKPIT')} />
             </div>
 
           </div>
