@@ -51,6 +51,8 @@ export default {
         'pulse-slow': 'pulse 3s ease-in-out infinite',
         'count-up': 'countUp 1.5s ease-out forwards',
         'shimmer': 'shimmer 1.8s ease-in-out infinite',
+        'float': 'float 5s ease-in-out infinite',
+        'float-slow': 'float 7s ease-in-out infinite',
       },
       keyframes: {
         ticker: {
@@ -72,6 +74,10 @@ export default {
         shimmer: {
           '0%': { transform: 'translateX(-120%)' },
           '100%': { transform: 'translateX(220%)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-12px)' },
         },
       },
     },
