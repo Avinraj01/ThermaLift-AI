@@ -93,7 +93,7 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
 
             {/* Right: 3D Digital Twin Stage matching Screenshot 2 */}
             <div className="lg:col-span-7 xl:col-span-7 flex items-center justify-end relative mt-4 lg:mt-0">
-              <Hero3DDigitalTwinStage onNavigateToCockpit={() => onNavigate('COCKPIT')} />
+              <Hero3DDigitalTwinStage />
             </div>
           </div>
 

@@ -1,12 +1,10 @@
 import React, { useRef, useEffect } from 'react';
 
 interface Hero3DDigitalTwinStageProps {
-  onNavigateToCockpit: () => void;
+  onNavigateToCockpit?: () => void;
 }
 
-export const Hero3DDigitalTwinStage: React.FC<Hero3DDigitalTwinStageProps> = ({
-  onNavigateToCockpit
-}) => {
+export const Hero3DDigitalTwinStage: React.FC<Hero3DDigitalTwinStageProps> = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -80,9 +78,7 @@ export const Hero3DDigitalTwinStage: React.FC<Hero3DDigitalTwinStageProps> = ({
 
       {/* ═══ 3D ANIMATED VIDEO DIGITAL TWIN STAGE ═══ */}
       <div 
-        onClick={onNavigateToCockpit}
-        className="relative flex-1 w-full max-w-[750px] xl:max-w-[820px] cursor-pointer group"
-        title="Interactive 3D Digital Twin — Click to launch Cockpit Workspace"
+        className="relative flex-1 w-full max-w-[750px] xl:max-w-[820px] group"
       >
         {/* Volumetric background glow for deep immersion */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[590px] h-[530px] bg-gradient-to-tr from-[#0284C7]/20 via-[#EA580C]/20 to-transparent rounded-full blur-[100px] pointer-events-none" />
