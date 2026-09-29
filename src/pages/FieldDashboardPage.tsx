@@ -48,43 +48,34 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
         <div className="absolute inset-0 akt-hero-pattern" />
         <div className="absolute inset-0 akt-diag-accent" />
 
-        <div className="relative max-w-[1400px] mx-auto px-4 lg:px-8 py-16 lg:py-20">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div className="relative max-w-[1440px] mx-auto px-4 lg:px-8 py-8 lg:py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left: Editorial & Title */}
-            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-6">
-              {/* Badges Bar */}
-              <div className="flex flex-wrap items-center gap-2.5">
-                <span className="text-[10px] font-mono px-3 py-1 rounded bg-[#FF9500]/15 text-[#FF9500] border border-[#FF9500]/35 font-bold uppercase tracking-widest flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#FF9500] glow-pulse" />
-                  SMART INDIA HACKATHON 2026
-                </span>
-                <span className="text-[10px] font-mono text-slate-200 bg-[#0E1524] px-2.5 py-1 rounded border border-slate-700 font-semibold">
-                  PROBLEM STATEMENT ID: 26120
-                </span>
-              </div>
-
+            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-4">
               {/* ThermaLift AI Brand Identity */}
-              <div className="pt-2 pb-1 select-none">
+              <div className="select-none">
                 <img 
                   src="/thermalift-brand-clean-transparent.png" 
                   alt="ThermaLift AI — Synchronized • Predictive • Autonomous" 
-                  className="h-12 sm:h-16 md:h-20 w-auto object-contain drop-shadow-[0_4px_24px_rgba(58,117,181,0.25)] select-none" 
+                  className="h-10 sm:h-12 md:h-14 w-auto object-contain drop-shadow-[0_4px_24px_rgba(58,117,181,0.25)] select-none" 
                 />
               </div>
 
               {/* Structured Headline with ThermaLift AI Label */}
-              <div className="space-y-1.5">
-                <div className="text-xs font-mono font-bold text-[#FF9500] tracking-widest uppercase flex items-center gap-2">
-                  <span className="w-5 h-[2px] bg-[#FF9500]" />
+              <div className="space-y-1">
+                <div className="text-[11px] font-mono font-bold text-[#FF9500] tracking-widest uppercase flex items-center gap-2">
+                  <span className="w-4 h-[2px] bg-[#FF9500]" />
                   <span>THERMALIFT AI SYSTEM ARCHITECTURE</span>
                 </div>
 
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-black font-montserrat text-white uppercase tracking-tight leading-[1.05]">
-                  INTEGRATED WELL-TO-<br />
-                  SURFACE INTELLIGENCE
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.15rem] font-black font-montserrat text-white uppercase tracking-tight leading-[1.03]">
+                  INTEGRATED WELL-<br />
+                  TO-<br />
+                  SURFACE<br />
+                  INTELLIGENCE
                 </h1>
-                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.25rem] font-black font-montserrat uppercase tracking-tight leading-[1.05]">
+                <div className="text-3xl sm:text-4xl md:text-5xl lg:text-[3.15rem] font-black font-montserrat uppercase tracking-tight leading-[1.03]">
                   <span className="text-[#FF9500] inline-block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
                     FOR HEAVY CRUDE<br />
                     ASSETS
@@ -92,55 +83,18 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                 </div>
               </div>
 
-              {/* Editorial Body with Left Accent Rail for Structured Alignment */}
-              <div className="border-l-4 border-[#FF9500] pl-4 sm:pl-5 py-2.5 max-w-2xl bg-gradient-to-r from-[#FF9500]/10 via-[#FF9500]/5 to-transparent rounded-r-xl">
-                <p className="text-sm sm:text-base font-sans text-slate-200 leading-relaxed font-normal">
+              {/* Editorial Body with Left Accent Rail */}
+              <div className="border-l-[3.5px] border-[#FF9500] pl-4 sm:pl-5 py-0.5 max-w-xl">
+                <p className="text-xs sm:text-sm font-sans text-slate-200 leading-relaxed font-normal">
                   Empowering <strong className="text-white font-semibold">Oil India Limited's Baghewala Field</strong> with continuous, physics-informed optimization of <strong className="text-white font-medium">Cyclic Steam Stimulation (CSS)</strong> and <strong className="text-white font-medium">Sucker Rod Artificial Lift</strong>. Coupling 320°C thermal decay with 1D Gibbs wave mechanics to eliminate rod float, reduce lifting kWh/bbl by <strong className="text-emerald-400 font-bold">24.2%</strong>, and prevent catastrophic parted rod strings.
                 </p>
               </div>
-
-              {/* Primary CTA Buttons with Flush Grid Alignment */}
-              <div className="flex flex-wrap items-center gap-3.5 pt-2">
-                <a
-                  href="/3D-Digital-Twin"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onNavigate('COCKPIT');
-                  }}
-                  className="px-5 py-3 rounded-lg bg-gradient-to-r from-[#FF9500] to-[#E68500] hover:from-[#FFA51A] hover:to-[#FF9500] text-white font-mono font-bold text-xs uppercase tracking-wider shadow-lg flex items-center gap-2 transition-all cursor-pointer"
-                >
-                  <Layers className="w-4 h-4" />
-                  <span>LAUNCH 3D DIGITAL TWIN</span>
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </a>
-
-                <a
-                  href="/Dyno-Studio"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onNavigate('DYNO');
-                  }}
-                  className="px-4 py-3 rounded-lg bg-[#0E1524] hover:bg-[#152136] border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-mono font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer"
-                >
-                  <Activity className="w-4 h-4 text-akt-cyan" />
-                  <span>DYNO STUDIO</span>
-                </a>
-
-                <button
-                  onClick={onOpenDocs}
-                  className="px-4 py-3 rounded-lg bg-[#0E1524] hover:bg-[#152136] border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-mono font-bold text-xs uppercase tracking-wider flex items-center gap-2 transition-all cursor-pointer"
-                >
-                  <BookOpen className="w-3.5 h-3.5 text-slate-400" />
-                  <span>Technical Specs</span>
-                </button>
-              </div>
             </div>
 
-            {/* Right: 3D Animated Video + 4 Stacked Cards + HUD Overlays */}
-            <div className="lg:col-span-7 xl:col-span-7 flex items-center justify-center relative mt-6 lg:mt-0">
+            {/* Right: 3D Digital Twin Stage matching Screenshot 2 */}
+            <div className="lg:col-span-7 xl:col-span-7 flex items-center justify-end relative mt-4 lg:mt-0">
               <Hero3DDigitalTwinStage onNavigateToCockpit={() => onNavigate('COCKPIT')} />
             </div>
-
           </div>
 
           {/* ═══ LIVE TELEMETRY STRIP ═══ */}
