@@ -52,9 +52,9 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left: Editorial & Title */}
-            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-4">
-              {/* ThermaLift AI Brand Identity */}
-              <div className="select-none">
+            <div className="lg:col-span-5 xl:col-span-5 flex flex-col justify-center space-y-3.5">
+              {/* ThermaLift AI Brand Identity (Shifted Upwards) */}
+              <div className="select-none -mt-3 sm:-mt-4 pb-0.5">
                 <img 
                   src="/thermalift-brand-clean-transparent.png" 
                   alt="ThermaLift AI — Synchronized • Predictive • Autonomous" 
@@ -69,21 +69,21 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                   <span>THERMALIFT AI SYSTEM ARCHITECTURE</span>
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.75rem] xl:text-[3.1rem] font-black font-montserrat uppercase tracking-tight leading-[1.08]">
-                  <span className="text-white block">
-                    INTEGRATED WELL-TO-
-                  </span>
-                  <span className="text-white block">
-                    SURFACE INTELLIGENCE
-                  </span>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] xl:text-[3rem] font-black font-montserrat uppercase tracking-tight leading-[1.04]">
+                  <span className="text-white block">INTEGRATED WELL-</span>
+                  <span className="text-white block">TO-SURFACE</span>
+                  <span className="text-white block">INTELLIGENCE</span>
                   <span className="text-[#FF9500] block mt-1 drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
-                    FOR HEAVY CRUDE ASSETS
+                    FOR HEAVY CRUDE
+                  </span>
+                  <span className="text-[#FF9500] block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
+                    ASSET
                   </span>
                 </h1>
               </div>
 
-              {/* Editorial Body with Left Accent Rail */}
-              <div className="border-l-[3.5px] border-[#FF9500] pl-4 sm:pl-5 py-0.5 max-w-xl">
+              {/* Editorial Body with Left Accent Rail (Shifted Downwards) */}
+              <div className="border-l-[3.5px] border-[#FF9500] pl-4 sm:pl-5 py-0.5 max-w-xl mt-4 sm:mt-5">
                 <p className="text-xs sm:text-sm font-sans text-slate-200 leading-relaxed font-normal">
                   Empowering <strong className="text-white font-semibold">Oil India Limited's Baghewala Field</strong> with continuous, physics-informed optimization of <strong className="text-white font-medium">Cyclic Steam Stimulation (CSS)</strong> and <strong className="text-white font-medium">Sucker Rod Artificial Lift</strong>. Coupling 320°C thermal decay with 1D Gibbs wave mechanics to eliminate rod float, reduce lifting kWh/bbl by <strong className="text-emerald-400 font-bold">24.2%</strong>, and prevent catastrophic parted rod strings.
                 </p>
