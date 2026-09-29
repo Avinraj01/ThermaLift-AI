@@ -69,11 +69,11 @@ export const FieldDashboardPage: React.FC<FieldDashboardPageProps> = ({
                   <span>THERMALIFT AI SYSTEM ARCHITECTURE</span>
                 </div>
 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] xl:text-[3rem] font-black font-montserrat uppercase tracking-tight leading-[1.04]">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] xl:text-[3rem] font-black font-montserrat uppercase tracking-tight leading-[1.14] sm:leading-[1.16]">
                   <span className="text-white block">INTEGRATED WELL-</span>
                   <span className="text-white block">TO-SURFACE</span>
                   <span className="text-white block">INTELLIGENCE</span>
-                  <span className="text-[#FF9500] block mt-1 drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
+                  <span className="text-[#FF9500] block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
                     FOR HEAVY CRUDE
                   </span>
                   <span className="text-[#FF9500] block drop-shadow-[0_2px_22px_rgba(255,149,0,0.55)]">
