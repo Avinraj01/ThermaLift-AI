@@ -1,0 +1,314 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#080B10] text-slate-100 font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overscroll-behavior: none;
+  }
+
+  ::selection {
+    background: #FF6B00;
+    color: #FFFFFF;
+    text-shadow: none;
+  }
+}
+
+/* ═══════════════════════════════════════════
+   AKT OIL SERVICES — INDUSTRIAL DESIGN SYSTEM
+   ═══════════════════════════════════════════ */
+
+/* Ticker Bar */
+.akt-ticker-bar {
+  background: linear-gradient(90deg, #0D1118 0%, #101520 50%, #0D1118 100%);
+  border-bottom: 1px solid #1E2638;
+}
+
+.akt-ticker-track {
+  display: flex;
+  animation: ticker 45s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Section Dividers */
+.akt-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #1E2638 20%, #1E2638 80%, transparent 100%);
+}
+
+.akt-divider-accent {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 107, 0, 0.4) 50%, transparent 100%);
+}
+
+/* Card System */
+.akt-card {
+  background: #101520;
+  border: 1px solid #1E2638;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.akt-card:hover {
+  border-color: rgba(255, 107, 0, 0.4);
+  box-shadow: 0 8px 32px -8px rgba(255, 107, 0, 0.1);
+}
+
+.akt-card-surface {
+  background: #141B28;
+  border: 1px solid #1E2638;
+  border-radius: 12px;
+}
+
+/* Numbered Badge System (01..06) */
+.akt-badge-num {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Corner Notch Accent (top-right) */
+.akt-notch {
+  position: relative;
+}
+
+.akt-notch::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, transparent 50%, rgba(255, 107, 0, 0.12) 50%);
+  border-radius: 0 12px 0 0;
+}
+
+/* KPI Stat Counter Cards */
+.akt-stat-card {
+  background: #101520;
+  border: 1px solid #1E2638;
+  border-radius: 8px;
+  padding: 16px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.akt-stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--stat-accent, #FF6B00), transparent);
+  opacity: 0.6;
+}
+
+/* Oscilloscope CRT */
+.oscilloscope-screen {
+  background-color: #060A12;
+  background-image:
+    linear-gradient(rgba(0, 210, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 210, 255, 0.04) 1px, transparent 1px);
+  background-size: 20px 20px;
+  border: 1px solid #1E2638;
+  border-radius: 8px;
+}
+
+/* Navigation Active Indicator */
+.akt-nav-active {
+  position: relative;
+}
+
+.akt-nav-active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 2px;
+  background: #FF6B00;
+  border-radius: 2px;
+}
+
+/* Industrial Button System */
+.akt-btn-primary {
+  background: linear-gradient(135deg, #FF6B00 0%, #FF8C00 100%);
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px -4px rgba(255, 107, 0, 0.4);
+}
+
+.akt-btn-primary:hover {
+  box-shadow: 0 8px 24px -4px rgba(255, 107, 0, 0.5);
+  transform: translateY(-1px);
+}
+
+.akt-btn-outline {
+  background: transparent;
+  color: #94A3B8;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid #1E2638;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.akt-btn-outline:hover {
+  border-color: #FF6B00;
+  color: #FF6B00;
+}
+
+/* Hero Overlay */
+.akt-hero-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(8, 11, 16, 0.95) 0%,
+    rgba(8, 11, 16, 0.85) 40%,
+    rgba(8, 11, 16, 0.92) 100%
+  );
+}
+
+.akt-hero-pattern {
+  background-image:
+    radial-gradient(circle at 20% 80%, rgba(255, 107, 0, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(0, 210, 255, 0.04) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(255, 107, 0, 0.02) 0%, transparent 50%);
+}
+
+/* Diagonal Tech Accent Lines */
+.akt-diag-accent {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 8px,
+    rgba(255, 107, 0, 0.03) 8px,
+    rgba(255, 107, 0, 0.03) 9px
+  );
+}
+
+/* Animations */
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080B10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E2638;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF6B00;
+}
+
+/* Scrollbar-hidden utility */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Range Input */
+input[type=range] {
+  -webkit-appearance: none;
+  background: #1E2638;
+  border-radius: 4px;
+  height: 4px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #FF6B00;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(255, 107, 0, 0.6);
+  border: 2px solid #FFFFFF;
+  transition: transform 0.15s ease;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+/* Shadow utilities for glow effects */
+.shadow-glow-amber {
+  box-shadow: 0 0 20px -4px rgba(255, 107, 0, 0.4);
+}
+
+.shadow-glow-cyan {
+  box-shadow: 0 0 20px -4px rgba(0, 210, 255, 0.4);
+}
+
+.shadow-glow-rose {
+  box-shadow: 0 0 20px -4px rgba(230, 57, 70, 0.5);
+}
