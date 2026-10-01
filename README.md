@@ -9,18 +9,13 @@
 
 <img src="./src/assets/LOGO.png" alt="ThermaLift AI Logo" width="430"/>
 
-<br><br>
+<br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=700&color=FF7A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" alt="ThermaLift AI animated tagline"/>
-
-<br><br>
-
 <a href="https://thermaliftai.vercel.app/">
 <img src="https://img.shields.io/badge/🚀_LIVE_PROTOTYPE-ThermaLift_AI-FF6B35?style=for-the-badge&labelColor=111827" />
 </a>
-
 &nbsp;
-
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
 <img src="https://img.shields.io/badge/▶_WATCH_DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
