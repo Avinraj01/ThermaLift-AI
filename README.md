@@ -6,13 +6,9 @@
 <!-- ========================================================= -->
 
 <br>
-
 <img src="./src/assets/LOGO.png" alt="ThermaLift AI Logo" width="430"/>
-
 <br><br>
-
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=700&color=FF7A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" alt="ThermaLift AI animated tagline"/>
-
 <br><br>
 
 <a href="https://thermaliftai.vercel.app/">
@@ -28,12 +24,10 @@
 </a>
 
 <br><br>
-
 <img src="https://img.shields.io/badge/PS_ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
 <img src="https://img.shields.io/badge/Theme-Smart_Automation-111827?style=flat-square&labelColor=EA580C" />
 <img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
 <img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
-
 <br><br>
 
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -121,34 +115,42 @@ It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnosti
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
 
 <img
-src="./src/assets/preview.png"
-alt="ThermaLift AI Project Presentation"
+src="https://drive.google.com/thumbnail?id=1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P&sz=w1600"
+alt="ThermaLift AI Smart India Hackathon 2026 Project Presentation"
 width="900"
 />
 
 </a>
 
-<br>
+<br><br>
 
 ### 📖 Navigate the Presentation
 
-<table>
+<table align="center" width="900">
 <tr>
 
 <td align="left">
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=1">
-<img src="https://img.shields.io/badge/◀_PREVIOUS_PAGE-111827?style=for-the-badge&logoColor=white" />
+
+<img
+src="https://img.shields.io/badge/◀%20PREVIOUS%20PAGE-111827?style=for-the-badge&logoColor=white"
+alt="Previous Page"
+/>
+
 </a>
 
 </td>
 
-<td width="180"></td>
-
 <td align="right">
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=2">
-<img src="https://img.shields.io/badge/NEXT_PAGE_▶-FF6B35?style=for-the-badge&logoColor=white" />
+
+<img
+src="https://img.shields.io/badge/NEXT%20PAGE%20▶-FF6B35?style=for-the-badge&logoColor=white"
+alt="Next Page"
+/>
+
 </a>
 
 </td>
@@ -159,13 +161,18 @@ width="900"
 <br>
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
-<img src="https://img.shields.io/badge/📄_OPEN_FULL_PRESENTATION-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+
+<img
+src="https://img.shields.io/badge/📄%20OPEN%20FULL%20PRESENTATION-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
+alt="Open Full Presentation"
+/>
+
 </a>
 
 <br><br>
 
 <sub>
-Click the presentation preview to open the document, or use the Previous / Next controls to navigate directly to a page.
+Click the PPT preview to open Google Drive, or use Previous / Next to jump to the corresponding page.
 </sub>
 
 </div>
