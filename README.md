@@ -6,24 +6,32 @@
 <!-- ========================================================= -->
 
 <br>
+
 <img src="./src/assets/LOGO.png" alt="ThermaLift AI Logo" width="430"/>
+
 <br><br>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=700&color=FF7A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" alt="ThermaLift AI animated tagline"/>
+
 <br><br>
 
 <a href="https://thermaliftai.vercel.app/">
 <img src="https://img.shields.io/badge/🚀_LIVE_PROTOTYPE-ThermaLift_AI-FF6B35?style=for-the-badge&labelColor=111827" />
 </a>
+
 &nbsp;
+
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
 <img src="https://img.shields.io/badge/▶_WATCH_DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
+
 &nbsp;
+
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
 <img src="https://img.shields.io/badge/📑_PROJECT_PPT-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
 </a>
 
-
+<br><br>
 
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-2.2-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -39,38 +47,224 @@
 > **Synchronised • Predictive • Autonomous**
 
 <br>
+
+### 🛢️ Physics + AI for Smarter Heavy-Oil Production
+
 **A physics + AI driven digital twin for optimizing thermal recovery,  
-sucker-rod dynamics and pumping operations in heavy-oil wells.**
+sucker-rod dynamics, and pumping operations in heavy-oil wells.**
+
 <br>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="70%" />
+
 </div>
 
 
 # 🛢️ What is ThermaLift AI?
 
-*ThermaLift AI** is a well-to-surface digital twin designed around the heavy-oil production challenge at the **Baghewala Heavy Oil Field*.
+<div align="center">
 
-It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnostics and pumping control into one operational intelligence platform.
+<h2>Physics + AI for Intelligent Heavy-Oil Production</h2>
 
-```text
-                    🛢️ THERMALIFT AI
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-      🌡️ THERMAL       🦾 MECHANICAL     🤖 AI
-       MODEL             MODEL         DIAGNOSTICS
-          │                │                │
-          └────────────────┼────────────────┘
-                           ▼
-                    🎯 DECISION ENGINE
-                           │
-                           ▼
-                     ⚙️ VFD CONTROL
-                           │
-                           ▼
-                    📊 PRODUCTION
-````
+<p>
+<strong>ThermaLift AI</strong> is a <strong>well-to-surface digital twin</strong>
+built for the heavy-oil production challenge at
+<strong>Baghewala Heavy Oil Field</strong>.
+</p>
+
+<p>
+It unifies <strong>thermal behavior</strong>,
+<strong>crude viscosity</strong>, <strong>sucker-rod dynamics</strong>,
+<strong>AI diagnostics</strong>, and <strong>pumping control</strong>
+into a single operational intelligence platform.
+</p>
+
+<br>
+
+<table>
+<tr>
+
+<td align="center" width="25%">
+
+<h2>🌡️</h2>
+
+<b>THERMAL MODEL</b>
+
+<br>
+
+<sub>
+Temperature<br>
+Viscosity<br>
+Thermal Recovery
+</sub>
+
+</td>
+
+<td align="center" width="25%">
+
+<h2>🦾</h2>
+
+<b>MECHANICAL MODEL</b>
+
+<br>
+
+<sub>
+Sucker-Rod Dynamics<br>
+Load Analysis<br>
+Pump Behavior
+</sub>
+
+</td>
+
+<td align="center" width="25%">
+
+<h2>🤖</h2>
+
+<b>AI DIAGNOSTICS</b>
+
+<br>
+
+<sub>
+Anomaly Detection<br>
+Prediction<br>
+Condition Monitoring
+</sub>
+
+</td>
+
+<td align="center" width="25%">
+
+<h2>⚙️</h2>
+
+<b>SMART CONTROL</b>
+
+<br>
+
+<sub>
+Decision Engine<br>
+Adaptive VFD<br>
+Pumping Optimization
+</sub>
+
+</td>
+
+</tr>
+</table>
+
+<br><br>
+
+<h3>🔄 From Well Conditions to Production Decisions</h3>
+
+<table>
+<tr>
+
+<td align="center" width="14%">
+
+<h2>🛢️</h2>
+
+<b>WELL</b>
+
+<br>
+
+<sub>
+Field Data
+</sub>
+
+</td>
+
+<td align="center" width="5%">
+<h2>→</h2>
+</td>
+
+<td align="center" width="16%">
+
+<h2>🌡️</h2>
+
+<b>PHYSICS</b>
+
+<br>
+
+<sub>
+Thermal<br>
+Mechanical
+</sub>
+
+</td>
+
+<td align="center" width="5%">
+<h2>→</h2>
+</td>
+
+<td align="center" width="16%">
+
+<h2>🤖</h2>
+
+<b>AI ENGINE</b>
+
+<br>
+
+<sub>
+Diagnose<br>
+Predict
+</sub>
+
+</td>
+
+<td align="center" width="5%">
+<h2>→</h2>
+</td>
+
+<td align="center" width="16%">
+
+<h2>🎯</h2>
+
+<b>DECISION</b>
+
+<br>
+
+<sub>
+Optimize<br>
+Respond
+</sub>
+
+</td>
+
+<td align="center" width="5%">
+<h2>→</h2>
+</td>
+
+<td align="center" width="17%">
+
+<h2>⚙️</h2>
+
+<b>CONTROL</b>
+
+<br>
+
+<sub>
+Adaptive VFD<br>
+Production
+</sub>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<img
+src="https://capsule-render.vercel.app/api?type=rect&color=FF6B35&height=2&section=header"
+width="55%"
+/>
+
+<br>
+
+<sub>
+<strong>Sense → Model → Predict → Decide → Control</strong>
+</sub>
+
+</div>
 
 ---
 
@@ -79,6 +273,7 @@ It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnosti
 <div align="center">
 
 ### 🇮🇳 Smart India Hackathon 2026 · SuperNovaZ
+
 |                          |                                                                       |
 | ------------------------ | --------------------------------------------------------------------- |
 | **Problem Statement ID** | `SIH26120`                                                            |
@@ -100,11 +295,14 @@ It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnosti
 <div align="center">
 
 ### 🏆 Smart India Hackathon 2026 · ThermaLift AI
+
 <br>
+
 <img src="https://img.shields.io/badge/PS_ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
 <img src="https://img.shields.io/badge/Theme-Smart_Automation-111827?style=flat-square&labelColor=EA580C" />
 <img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
 <img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
+
 <br>
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
@@ -116,7 +314,10 @@ width="900"
 />
 
 </a>
- 📖 Navigate the Presentation
+
+<br>
+
+### 📖 Navigate the Presentation
 
 <table align="center" width="900">
 <tr>
@@ -153,13 +354,13 @@ alt="Next Page"
 <br>
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
+
 <img
 src="https://img.shields.io/badge/📄%20OPEN%20FULL%20PRESENTATION-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
 alt="Open Full Presentation"
 />
-</a>
 
-<br>
+</a>
 
 <sub>
 Click the PPT preview to open Google Drive, or use Previous / Next to jump to the corresponding page.
@@ -188,7 +389,9 @@ width="900"
 <br>
 
 <a href="https://thermaliftai.vercel.app/">
-<img src="https://img.shields.io/badge/🚀_OPEN_THERMALIFT_AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" />
+
+<img src="https://img.shields.io/badge/🚀_OPEN_THERMALIFT_AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" alt="Open ThermaLift AI"/>
+
 </a>
 
 <br>
@@ -215,10 +418,12 @@ width="820"
 
 </a>
 
-
+<br>
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
+
 <img src="https://img.shields.io/badge/▶_WATCH_FULL_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+
 </a>
 
 </div>
@@ -230,37 +435,37 @@ width="820"
 Heavy-oil production becomes increasingly difficult as the reservoir cools after thermal stimulation.
 
 ```text
-               🔥 CYCLIC STEAM STIMULATION
+                🔥 CYCLIC STEAM STIMULATION
                            │
                            ▼
-                    🔥 HOT RESERVOIR
+                     🔥 HOT RESERVOIR
                            │
                            ▼
-                    🛢️ LOW VISCOSITY
+                     🛢️ LOW VISCOSITY
                            │
                            ▼
-                       ⛽ PRODUCTION
+                        ⛽ PRODUCTION
                            │
                            ▼
-                    🌡️ RESERVOIR COOLS
+                     🌡️ RESERVOIR COOLS
                            │
                            ▼
-                    📈 VISCOSITY RISES
+                     📈 VISCOSITY RISES
                            │
                            ▼
-                   🦾 ROD DRAG RISES
+                    🦾 ROD DRAG RISES
                            │
-                 ┌─────────┴─────────┐
-                 ▼                   ▼
-            ⚠️ ROD FLOAT        ⚠️ FLUID POUND
-                 │                   │
-                 └─────────┬─────────┘
+                  ┌────────┴────────┐
+                  ▼                 ▼
+             ⚠️ ROD FLOAT      ⚠️ FLUID POUND
+                  │                 │
+                  └────────┬────────┘
                            ▼
-                    💥 MECHANICAL
-                       FAILURE
+                     💥 MECHANICAL
+                        FAILURE
                            │
                            ▼
-                      💸 WORKOVER
+                       💸 WORKOVER
 ```
 
 ## 🔄 From Reactive → Predictive
@@ -521,13 +726,13 @@ $$
 Critical Viscosity
        │
        ▼
-   ~1,200 cP
+    ~1,200 cP
        │
        ▼
 Temperature
        │
        ▼
-   ~67.5°C
+    ~67.5°C
 ```
 
 The objective is to identify the transition toward high-viscosity operating conditions before mechanical problems become severe.
@@ -539,7 +744,6 @@ The objective is to identify the transition toward high-viscosity operating cond
 ThermaLift AI models the sucker-rod string using a **damped 1D wave equation** to estimate downhole rod and pump behavior from surface measurements.
 
 ### 📐 Governing Equation
-
 
 <div align="center">
 
@@ -553,14 +757,14 @@ width="650"
 
 ### 🔍 Model Parameters
 
-| Symbol | Meaning |
-|---|---|
-| `u(x,t)` | Axial displacement of the rod string |
-| `a` | Stress-wave velocity |
-| `c(x,t)` | Viscosity-dependent damping coefficient |
-| `g` | Gravitational acceleration |
-| `ρ_fluid` | Fluid density |
-| `ρ_steel` | Steel density |
+| Symbol    | Meaning                                 |
+| --------- | --------------------------------------- |
+| `u(x,t)`  | Axial displacement of the rod string    |
+| `a`       | Stress-wave velocity                    |
+| `c(x,t)`  | Viscosity-dependent damping coefficient |
+| `g`       | Gravitational acceleration              |
+| `ρ_fluid` | Fluid density                           |
+| `ρ_steel` | Steel density                           |
 
 ### ⚙️ Model Flow
 
@@ -569,41 +773,42 @@ width="650"
 │  Surface Position    │
 └──────────┬───────────┘
            │
-           │
-┌──────────▼───────────┐
+           ▼
+┌──────────────────────┐
 │    Surface Load      │
 └──────────┬───────────┘
            │
-           │
-┌──────────▼───────────┐
+           ▼
+┌──────────────────────┐
 │   Fluid Viscosity    │
 └──────────┬───────────┘
            │
-           │
-┌──────────▼───────────┐
+           ▼
+┌──────────────────────┐
 │    Rod Properties    │
 └──────────┬───────────┘
            │
-           │
-┌──────────▼───────────┐
+           ▼
+┌──────────────────────┐
 │    Well Geometry     │
 └──────────┬───────────┘
            │
            ▼
 ┌────────────────────────────┐
-│    🧮 Gibbs Wave Solver    │
+│     🧮 Gibbs Wave Solver   │
 └────────────┬───────────────┘
              │
              ▼
 ┌────────────────────────────┐
-│   🦾 Downhole Rod/Pump     │
-│        Dynamics            │
+│    🦾 Downhole Rod/Pump    │
+│          Dynamics           │
 └────────────┬───────────────┘
              │
              ▼
 ┌────────────────────────────┐
-│    📊 Dynamometer Card     │
+│     📊 Dynamometer Card    │
 └────────────────────────────┘
+```
 
 ---
 
@@ -623,27 +828,27 @@ Input Tensor
              │ Dynamometer Card│
              └────────┬────────┘
                       ↓
-                Conv1D × 32
+                 Conv1D × 32
                       ↓
-                  BatchNorm
+                   BatchNorm
                       ↓
-                   MaxPool
+                    MaxPool
                       ↓
-                Conv1D × 64
+                 Conv1D × 64
                       ↓
-                  BatchNorm
+                   BatchNorm
                       ↓
-                   MaxPool
+                    MaxPool
                       ↓
-               Residual Block
+                Residual Block
                       ↓
-             Global Avg Pool
+              Global Avg Pool
                       ↓
-                 Dense 128
+                  Dense 128
                       ↓
-                  Softmax
+                   Softmax
                       ↓
-            Condition Confidence
+             Condition Confidence
 ```
 
 ### Diagnostic Classes
@@ -834,21 +1039,21 @@ flowchart TD
                  AUTONOMOUS CONTROL
                          │
                          ▼
-               ┌───────────────────┐
-               │  Control Decision │
-               └─────────┬─────────┘
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-        Software Logic       HARDWARE INTERLOCK
-              │                     │
-              ▼                     ▼
-        VFD Command          Load Protection
-              │               Rod Slack Trip
-              │                     │
-              └──────────┬──────────┘
-                         ▼
-                   🛑 SAFE STATE
+                ┌───────────────────┐
+                │  Control Decision │
+                └─────────┬─────────┘
+                          │
+                 ┌────────┴────────┐
+                 ▼                 ▼
+           Software Logic    HARDWARE INTERLOCK
+                 │                 │
+                 ▼                 ▼
+           VFD Command       Load Protection
+                              Rod Slack Trip
+                 │                 │
+                 └────────┬────────┘
+                          ▼
+                     🛑 SAFE STATE
 ```
 
 ### Safety Mechanisms
@@ -992,3 +1197,5 @@ OPERATIONS
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=800&color=FF8A3D&center=true&vCenter=true&width=700&height=45&lines=Heavy+Oil+Intelligence;Physics+%2B+AI;Predictive+Diagnostics;Autonomous+Control;Digital+Twin+for+Baghewala" />
 
 </div>
+```
+
