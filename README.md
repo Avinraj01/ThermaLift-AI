@@ -1,69 +1,141 @@
 
 <div align="center">
 
-# 🛢️ ThermaLift AI
+<!-- ========================= HERO ========================= -->
 
-### Autonomous Well-to-Surface Digital Twin for Heavy Oil Recovery
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:172554,75:EA580C,100:F97316&height=220&section=header&text=ThermaLift%20AI&fontSize=62&fontColor=FFFFFF&fontAlignY=38&desc=Synchronised%20%E2%80%A2%20Predictive%20%E2%80%A2%20Autonomous&descAlignY=62&descSize=20&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2800&pause=900&color=FF6B35&center=true&vCenter=true&width=850&lines=Heavy+Oil+EOR+Optimization;AI-Powered+Rod+Diagnostics;Physics-Informed+Thermal+Forecasting;Autonomous+VFD+Control;Well-to-Surface+Digital+Twin" alt="ThermaLift AI animation" />
+<br>
 
-<br />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=23&duration=2500&pause=700&color=FF8A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" />
+
+<br><br>
 
 <a href="https://thermaliftai.vercel.app/">
-  <img src="https://img.shields.io/badge/🚀_Live_Prototype-ThermaLift_AI-FF6B35?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀%20LIVE%20PROTOTYPE-ThermaLift%20AI-FF6B35?style=for-the-badge&labelColor=111827" />
 </a>
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
-  <img src="https://img.shields.io/badge/▶️_YouTube-Demo-FF0000?style=for-the-badge&logo=youtube" />
+<img src="https://img.shields.io/badge/▶%20WATCH%20DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
 
-<br /><br />
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
+<img src="https://img.shields.io/badge/📑%20PROJECT%20PRESENTATION-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/PS%20ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
+<img src="https://img.shields.io/badge/Theme-Smart%20Automation-111827?style=flat-square&labelColor=EA580C" />
+<img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
+<img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
+
+<br><br>
 
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-2.2-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/C%2B%2B-Edge_Engine-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-TimescaleDB-336791?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MQTT-Industrial_Edge-660066?style=flat-square" />
-<img src="https://img.shields.io/badge/WebSocket-Realtime-010101?style=flat-square" />
-<img src="https://img.shields.io/badge/Vercel-Frontend-black?style=flat-square&logo=vercel" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/TimescaleDB-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MQTT-Industrial%20IoT-660066?style=flat-square" />
+<img src="https://img.shields.io/badge/WebSocket-Realtime-111827?style=flat-square" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 
-<br /><br />
+<br><br>
 
-**ThermaLift AI** is an autonomous well-to-surface digital twin designed for heavy-oil production at
-**Oil India Limited's Baghewala Heavy Oil Field**.
+> **A physics + AI driven digital twin for optimizing thermal recovery, sucker-rod dynamics and pumping operations in heavy-oil wells.**
 
-It couples reservoir thermal forecasting, sucker-rod dynamics, AI-based downhole diagnostics,
-and asymmetric VFD control into a single operational intelligence platform.
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="70%" />
 
 </div>
 
 ---
 
-# 📑 Project Proposal & Solution Showcase
+# 🛢️ What is ThermaLift AI?
+
+**ThermaLift AI** is a well-to-surface digital twin designed around the heavy-oil production challenge at the **Baghewala Heavy Oil Field**.
+
+It connects four major layers:
+
+```text
+🌡️ THERMAL STATE
+       ↓
+🛢️ OIL VISCOSITY
+       ↓
+🦾 ROD / PUMP DYNAMICS
+       ↓
+🤖 AI DIAGNOSTICS
+       ↓
+⚙️ VFD OPTIMIZATION
+       ↓
+📊 PRODUCTION INTELLIGENCE
+````
+
+Instead of treating reservoir temperature, oil viscosity, rod dynamics and pumping control as separate problems, ThermaLift AI models them as one connected operational system.
+
+---
+
+# 🏆 Smart India Hackathon 2026
 
 <div align="center">
 
-### 🏆 Smart India Hackathon 2026 · ThermaLift AI
+### 🇮🇳 Smart India Hackathon 2026 · SuperNovaZ
 
-**Problem Statement:** Autonomous Heavy-Oil Production Optimization  
-**PS ID:** 26120  
-**Target Asset:** OIL Baghewala Heavy Oil Field  
-**Formation:** Jodhpur Sandstone · Rajasthan
+|                          |                                                                       |
+| ------------------------ | --------------------------------------------------------------------- |
+| **Problem Statement ID** | `SIH26120`                                                            |
+| **Problem Statement**    | Digital Twin for Well-to-Surface Optimization of CSS & SRP Operations |
+| **Target Asset**         | Baghewala Heavy Oil Field                                             |
+| **Organization**         | Oil India Limited                                                     |
+| **Formation**            | Jodhpur Sandstone                                                     |
+| **Theme**                | Smart Automation                                                      |
+| **Category**             | Software                                                              |
+| **Team**                 | SuperNovaZ                                                            |
+| **Project**              | ThermaLift AI                                                         |
 
-<br />
+</div>
+
+---
+
+# 📑 Project Presentation
+
+<div align="center">
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
 
-<img src="https://drive.google.com/thumbnail?id=1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P&sz=w1200"
-alt="ThermaLift AI Smart India Hackathon proposal"
-width="850" />
+<img
+src="https://drive.google.com/thumbnail?id=1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P&sz=w1600"
+alt="ThermaLift AI Smart India Hackathon 2026 Presentation"
+width="900"
+/>
 
 </a>
 
-<br /><br />
+<br><br>
 
-**[📄 Open Project Presentation](https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing)**
+### 📖 Navigate the Presentation
+
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=1">
+<img src="https://img.shields.io/badge/◀%20Previous%20Page-0B1220?style=for-the-badge&logoColor=white" />
+</a>
+
+  
+
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=2">
+<img src="https://img.shields.io/badge/Next%20Page%20▶-FF6B35?style=for-the-badge&logoColor=white" />
+</a>
+
+<br><br>
+
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
+<img src="https://img.shields.io/badge/📄%20Open%20Full%20Presentation-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+</a>
+
+<br>
+
+<sub>Click the presentation preview or navigation buttons to open the Google Drive document.</sub>
 
 </div>
 
@@ -75,98 +147,151 @@ width="850" />
 
 <a href="https://thermaliftai.vercel.app/">
 
-<img src="https://image.thum.io/get/width/1200/crop/900/https://thermaliftai.vercel.app/"
+<img
+src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fthermaliftai.vercel.app%2F?w=1400&h=900"
 alt="ThermaLift AI Live Prototype"
-width="850" />
+width="900"
+/>
 
 </a>
 
-<br />
+<br><br>
 
-**🚀 [Open ThermaLift AI](https://thermaliftai.vercel.app/)**
+<a href="https://thermaliftai.vercel.app/">
+<img src="https://img.shields.io/badge/🚀%20OPEN%20THERMALIFT%20AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
-<sub>Click the preview image to open the live digital-twin prototype.</sub>
+<br><br>
+
+<sub>Click the dashboard preview to launch the interactive prototype.</sub>
 
 </div>
 
 ---
 
-# 🎥 System Demonstration
+# 🎥 Product Demonstration
 
 <div align="center">
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
 
-<img src="https://img.youtube.com/vi/mCxYFCepW6E/maxresdefault.jpg"
-alt="ThermaLift AI Demonstration"
-width="750" />
+<img
+src="https://img.youtube.com/vi/mCxYFCepW6E/maxresdefault.jpg"
+alt="ThermaLift AI System Demonstration"
+width="820"
+/>
 
 </a>
 
-<br />
+<br><br>
 
-**▶️ Click the thumbnail to watch the ThermaLift AI demonstration**
+<a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
+<img src="https://img.shields.io/badge/▶%20WATCH%20FULL%20DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
 
 </div>
 
 ---
 
-# 🌐 What Problem Does It Solve?
+# ⚡ The Core Problem
 
-Heavy-oil production at Baghewala faces a fundamental thermal-mechanical problem.
+Heavy-oil production becomes increasingly difficult as the reservoir cools after thermal stimulation.
 
-During **Cyclic Steam Stimulation (CSS)**, injected steam temporarily heats the reservoir and reduces crude viscosity. As the reservoir cools during production, viscosity rises sharply.
+```text
+              CYCLIC STEAM STIMULATION
+                       │
+                       ▼
+                 🔥 HOT RESERVOIR
+                       │
+                       ▼
+                🛢️ LOW VISCOSITY
+                       │
+                       ▼
+                 ⛽ PRODUCTION
+                       │
+                       ▼
+                🌡️ RESERVOIR COOLS
+                       │
+                       ▼
+               📈 VISCOSITY RISES
+                       │
+                       ▼
+              🦾 ROD DRAG INCREASES
+                       │
+             ┌─────────┴─────────┐
+             ▼                   ▼
+       ⚠️ ROD FLOAT         ⚠️ FLUID POUND
+             │                   │
+             └─────────┬─────────┘
+                       ▼
+                 💥 MECHANICAL
+                    FAILURE
+                       │
+                       ▼
+                 💸 WORKOVER
+```
 
-This increased viscosity creates significant hydraulic drag on the sucker-rod string, potentially causing:
+### ThermaLift AI changes the workflow:
 
-- Rod floating
-- Slow sinker-bar descent
-- Fluid pound
-- Incomplete pump filling
-- Rod-string fatigue
-- Sucker-rod parting
-- Unplanned workovers
+```text
+REACTIVE
+Operator sees failure
+       ↓
+Manual intervention
+       ↓
+Production loss
+       ↓
+Workover
 
-Traditional workflows are largely reactive, with operators responding after surface symptoms appear.
+                    ↓↓↓
 
-**ThermaLift AI connects thermal behavior, mechanical rod dynamics, AI diagnostics, and pump control into one predictive digital twin.**
-
-### 🔄 Problem → Solution
-
-| Operational Challenge | ThermaLift AI Solution |
-|---|---|
-| 🌡️ Reservoir cooling | 🧠 Physics-informed thermal forecasting |
-| 🛢️ Rising crude viscosity | 📈 Viscosity-temperature prediction |
-| 🦾 Rod floating | 🤖 AI anomaly classification |
-| 💥 Fluid pound | 📊 Downhole dynamometer reconstruction |
-| ⚙️ Fixed pump speed | 🎛️ Asymmetric VFD modulation |
-| 🧑‍🔧 Reactive intervention | 🔮 Predictive intervention |
-| 💸 High workover cost | 📉 Failure prevention |
-| 🔥 Inefficient CSS cycles | 💰 Dynamic economic optimization |
+PREDICTIVE
+Thermal forecast
+       ↓
+Viscosity prediction
+       ↓
+Rod-dynamics analysis
+       ↓
+AI anomaly detection
+       ↓
+Adaptive VFD control
+       ↓
+Preventive intervention
+```
 
 ---
 
-# ✨ Core Features
+# 🔄 Problem → Solution
 
-- 🌡️ **Thermal Reservoir Digital Twin**
-- 🧠 **Physics-Informed Neural Network (PINN)**
-- 📈 **Heavy-Oil Viscosity Forecasting**
-- 🦾 **1D Gibbs Wave-Equation Solver**
-- 📊 **Downhole Dynamometer Card Reconstruction**
-- 🤖 **1D-CNN Rod-Float & Anomaly Classification**
-- ⚙️ **Asymmetric Closed-Loop VFD Control**
-- 🔥 **CSS Steam-Cycle Simulation**
-- 💰 **Steam-Oil Ratio Optimization**
-- 🚨 **Predictive Failure Detection**
-- 📡 **Real-Time Industrial Telemetry**
-- 🔐 **SIL-2 Safety Architecture**
-- 🛡️ **Industrial Cybersecurity Controls**
-- 📋 **Control Audit Logging**
-- ⚡ **Real-Time Executive Operations Cockpit**
+| Challenge                   | ThermaLift AI                        |
+| --------------------------- | ------------------------------------ |
+| 🌡️ Reservoir cooling       | Physics-informed thermal forecasting |
+| 🛢️ Rising viscosity        | Viscosity-temperature modeling       |
+| 🦾 Rod floating             | AI-based anomaly detection           |
+| 💥 Fluid pound              | Dynamometer-card analysis            |
+| ⚙️ Fixed pumping speed      | Asymmetric VFD modulation            |
+| 🧑‍🔧 Reactive intervention | Predictive intervention              |
+| 🔥 Inefficient CSS cycle    | Dynamic CSS optimization             |
+| 📊 Disconnected data        | Unified digital twin                 |
 
 ---
 
-# 🧭 High-Level Mind Map
+# ✨ Core Capabilities
+
+<div align="center">
+
+| 🌡️ THERMAL        | 🤖 AI             | ⚙️ CONTROL        | 📊 ANALYTICS      |
+| ------------------ | ----------------- | ----------------- | ----------------- |
+| Reservoir cooling  | 1D-CNN            | Adaptive VFD      | Dynamometer cards |
+| Viscosity forecast | PINN              | Stroke modulation | SOR               |
+| CSS simulation     | Anomaly detection | Closed-loop logic | Energy            |
+| Heat decay         | Prediction        | Safety fallback   | Production        |
+
+</div>
+
+---
+
+# 🧭 Digital Twin Mind Map
 
 ```mermaid
 mindmap
@@ -175,14 +300,14 @@ mindmap
       Jodhpur Sandstone
       Heavy Oil
       Thermal Decay
-      CSS Cycles
+      CSS
       Viscosity
     Digital Twin
       Thermal Model
       Mechanical Model
       Production Model
       Economic Model
-    AI
+    Artificial Intelligence
       PINN
       1D CNN
       Anomaly Detection
@@ -195,14 +320,14 @@ mindmap
       Valve Leakage
     Control
       VFD
-      Upstroke Optimization
-      Downstroke Deceleration
-      Closed Loop Control
+      Upstroke
+      Downstroke
+      Closed Loop
     Telemetry
       Load Cell
       Pressure
       Temperature
-      Motor Encoder
+      Encoder
       MQTT
       OPC UA
     Safety
@@ -210,87 +335,87 @@ mindmap
       Load Interlock
       Watchdog
       Safe Fallback
-    Analytics
-      Dynamometer Cards
-      Viscosity
-      SOR
-      Energy
-      MTBF
-````
+```
 
 ---
 
 # 🏗️ System Architecture
 
-### Production Digital-Twin Architecture
-
 ```mermaid
 flowchart LR
 
-    SENSORS["📡 Wellsite Sensors"]
+    S["📡 WELL SITE"]
 
-    SENSORS --> LC["Polished Rod<br/>Load Cell"]
-    SENSORS --> VFD["Motor VFD<br/>Encoder"]
-    SENSORS --> PT["Downhole<br/>Pressure / Temp"]
-    SENSORS --> WH["Wellhead<br/>PT / TT"]
+    LC["Load Cell"]
+    EN["VFD Encoder"]
+    PT["Pressure / Temperature"]
+    WH["Wellhead Sensors"]
 
-    LC --> EDGE["⚙️ Industrial Edge Runtime"]
-    VFD --> EDGE
+    LC --> EDGE
+    EN --> EDGE
     PT --> EDGE
     WH --> EDGE
 
-    EDGE --> MQTT["MQTT / Modbus"]
-    MQTT --> CLOUD["☁️ Cloud Digital Twin"]
+    S --> LC
+    S --> EN
+    S --> PT
+    S --> WH
 
-    CLOUD --> THERMAL["🌡️ PINN Thermal Solver"]
-    CLOUD --> GIBBS["🦾 Gibbs Wave Solver"]
-    CLOUD --> ML["🤖 1D-CNN Diagnostics"]
-    CLOUD --> ECON["💰 Economic Optimizer"]
+    EDGE["⚙️ INDUSTRIAL EDGE"]
 
-    THERMAL --> CONTROL["🎛️ Control Dispatcher"]
-    GIBBS --> CONTROL
-    ML --> CONTROL
-    ECON --> CONTROL
+    EDGE --> MQTT["📡 MQTT / MODBUS"]
 
-    CONTROL --> VFDCTRL["⚡ Adaptive VFD Scheduler"]
+    MQTT --> CLOUD["☁️ DIGITAL TWIN CORE"]
 
-    VFDCTRL --> PUMP["🛢️ Pumping Unit"]
+    CLOUD --> THERMAL["🌡️ Thermal Engine"]
+    CLOUD --> GIBBS["🦾 Gibbs Solver"]
+    CLOUD --> AI["🤖 AI Diagnostics"]
+    CLOUD --> ECON["💰 Economic Engine"]
 
-    CLOUD --> UI["🖥️ ThermaLift AI Cockpit"]
+    THERMAL --> DECISION["🎯 Decision Engine"]
+    GIBBS --> DECISION
+    AI --> DECISION
+    ECON --> DECISION
+
+    DECISION --> VFD["⚡ Adaptive VFD"]
+
+    CLOUD --> DASH["🖥️ Executive Cockpit"]
+
+    VFD --> PUMP["🛢️ SRP / PUMP"]
 ```
 
 ---
 
-# 🔄 End-to-End AI Workflow
+# 🔄 End-to-End Intelligence Loop
 
 ```mermaid
 flowchart TD
 
-    A["📡 Real-Time Well Telemetry"]
+    A["📡 Sensor Telemetry"]
 
-    A --> B["🌡️ Thermal State Estimation"]
+    A --> B["🌡️ Thermal State"]
 
-    B --> C["📈 Viscosity Prediction"]
+    B --> C["📈 Viscosity Forecast"]
 
-    C --> D{"⚠️ Critical Viscosity?"}
+    C --> D{"Critical Viscosity?"}
 
-    D -->|No| E["Normal Pumping"]
+    D -->|NO| E["🟢 Normal Operation"]
 
-    D -->|Yes| F["🧠 Rod Dynamics Analysis"]
+    D -->|YES| F["🦾 Rod Dynamics"]
 
-    F --> G["📊 Gibbs Downhole Card"]
+    F --> G["📊 Downhole Dynamometer"]
 
-    G --> H["🤖 1D-CNN Classifier"]
+    G --> H["🤖 1D-CNN"]
 
-    H --> I{"Anomaly Detected?"}
+    H --> I{"Anomaly?"}
 
-    I -->|No| J["Continue Operation"]
+    I -->|NO| J["🟢 Continue"]
 
-    I -->|Yes| K["🚨 Predictive Intervention"]
+    I -->|YES| K["🚨 Predictive Alert"]
 
-    K --> L["🎛️ Asymmetric VFD Control"]
+    K --> L["🎛️ VFD Optimization"]
 
-    L --> M["⚙️ Adjust Downstroke / Upstroke"]
+    L --> M["⬆️ Upstroke / ⬇️ Downstroke"]
 
     M --> N["📊 Monitor Response"]
 
@@ -299,73 +424,74 @@ flowchart TD
 
 ---
 
-# 🧠 AI & Physics Engine
+# 🧠 Physics + AI Engine
 
-ThermaLift AI does not rely on a single black-box prediction model.
-
-It combines **physics-based equations with machine learning**.
+ThermaLift AI combines physics-based modeling with machine learning rather than relying solely on a black-box predictor.
 
 ```mermaid
 flowchart LR
 
     DATA["📡 Sensor Data"]
 
-    DATA --> THERMAL["🌡️ Thermal Physics"]
+    DATA --> PHYS["⚛️ Physics Models"]
 
-    THERMAL --> PINN["🧠 PINN"]
+    PHYS --> TEMP["🌡️ Thermal State"]
+    PHYS --> ROD["🦾 Rod Dynamics"]
 
-    DATA --> MECH["🦾 Rod Mechanics"]
+    TEMP --> PINN["🧠 PINN"]
+    ROD --> GIBBS["📐 Gibbs Solver"]
 
-    MECH --> GIBBS["📐 Gibbs Solver"]
-
-    GIBBS --> CARD["📊 Downhole Dynamometer"]
+    GIBBS --> CARD["📊 Downhole Card"]
 
     CARD --> CNN["🤖 1D-CNN"]
 
-    PINN --> VISC["🛢️ Viscosity Forecast"]
+    PINN --> VISC["🛢️ Viscosity"]
 
-    VISC --> DECISION["🎯 Control Decision"]
-
+    VISC --> DECISION["🎯 Decision Engine"]
     CNN --> DECISION
 
-    DECISION --> VFD["⚡ VFD Governor"]
+    DECISION --> CONTROL["⚡ VFD Governor"]
 ```
 
 ---
 
 # 🌡️ Thermal Forecasting
 
-ThermaLift AI models reservoir thermal decay after steam stimulation.
+ThermaLift AI models the thermal decay of the stimulated reservoir.
 
-The calibrated reservoir temperature formulation is:
+The documented calibrated temperature formulation is:
 
 $$
-T_r(t) =
+T_r(t)=
 T_{init}
 +
 (T_{peak}-T_{init})
-\cdot
 e^{-t/\tau_{decay}}
-\cdot
 \left[
 1-\eta_{loss}
 \left(\frac{t}{t_{cycle}}\right)^{0.65}
 \right]
 $$
 
-The system uses predicted thermal decline to estimate when heavy crude viscosity approaches the critical rod-float region.
+The engineering model identifies approximately:
 
-For the Baghewala model, the documented critical viscosity is approximately:
+```text
+Critical viscosity
+      ↓
+   ~1,200 cP
+      ↓
+Temperature
+      ↓
+  ~67.5°C
+```
 
-**1,200 cP at ~67.5°C**
-
-This allows the system to act before mechanical degradation becomes severe.
+The goal is to identify the transition toward high-viscosity operating conditions before mechanical problems become severe.
 
 ---
 
 # 🦾 Sucker-Rod Dynamics
 
-ThermaLift AI reconstructs downhole rod behavior using the 1D damped wave equation:
+The rod string is modeled using a damped 1D wave equation:
 
 $$
 \frac{\partial^2u}{\partial t^2}
@@ -382,141 +508,131 @@ g
 \right)
 $$
 
-Where:
+### Model Inputs
 
-* `u(x,t)` = axial rod displacement
-* `a` = stress-wave velocity
-* `c(x,t)` = viscosity-dependent damping
-* `g` = gravitational acceleration
-* `μ(T)` = temperature-dependent crude viscosity
-
-The solver converts surface telemetry into a simulated downhole dynamometer card.
+```text
+Surface Position
+      +
+Surface Load
+      +
+Fluid Viscosity
+      +
+Rod Properties
+      +
+Well Geometry
+      ↓
+Gibbs Wave Solver
+      ↓
+Downhole Pump Dynamics
+      ↓
+Dynamometer Card
+```
 
 ---
 
-# 🤖 1D-CNN Diagnostic Engine
+# 🤖 AI Diagnostic Engine
 
-Surface and downhole dynamometer cards are normalized into:
-
-```text
-Input Shape
-(128, 2)
-```
-
-The classification pipeline:
+Dynamometer cards are represented as normalized coordinate pairs:
 
 ```text
-Input Card Tensor
-       │
-       ▼
-Conv1D
-32 Filters
-       │
-       ▼
-BatchNorm
-       │
-       ▼
-MaxPool
-       │
-       ▼
-Conv1D
-64 Filters
-       │
-       ▼
-BatchNorm
-       │
-       ▼
-MaxPool
-       │
-       ▼
-Residual Block
-128 Filters
-       │
-       ▼
-Global Average Pooling
-       │
-       ▼
-Dense Layer
-       │
-       ▼
-Softmax
-       │
-       ▼
-Condition Confidence
+Input Tensor
+(128 × 2)
 ```
 
-### Diagnostic Conditions
+### Neural Pipeline
 
-| Condition           | Diagnostic Signal            |
-| ------------------- | ---------------------------- |
-| 🟢 Normal Pumping   | Full liquid pump             |
-| 🟠 Rod Floating     | High viscous downstroke drag |
-| 🔴 Fluid Pound      | Sudden load drop             |
-| 🟡 Gas Interference | Compression curvature        |
-| 🔴 Rod Parting      | Near-zero load baseline      |
-| 🟠 Valve Leak       | Abnormal stroke shape        |
-| 🟠 Pump Unseated    | Abnormal pump card           |
+```text
+             ┌─────────────────┐
+             │ Dynamometer Card│
+             └────────┬────────┘
+                      ↓
+                Conv1D × 32
+                      ↓
+                  BatchNorm
+                      ↓
+                   MaxPool
+                      ↓
+                Conv1D × 64
+                      ↓
+                  BatchNorm
+                      ↓
+                   MaxPool
+                      ↓
+               Residual Block
+                      ↓
+             Global Avg Pool
+                      ↓
+                 Dense 128
+                      ↓
+                 Softmax
+                      ↓
+            Condition Confidence
+```
+
+### Diagnostic Classes
+
+| Condition           | Detection Concept             |
+| ------------------- | ----------------------------- |
+| 🟢 Normal Pumping   | Full liquid pump              |
+| 🟠 Rod Floating     | Viscous downstroke resistance |
+| 🔴 Fluid Pound      | Sudden load drop              |
+| 🟡 Gas Interference | Compression curvature         |
+| 🔴 Rod Parting      | Near-zero load baseline       |
+| 🟠 Valve Leak       | Abnormal stroke profile       |
+| 🟠 Pump Unseated    | Abnormal pump card            |
 
 ---
 
 # ⚙️ Asymmetric VFD Control
 
-Traditional pumping systems generally operate using a fixed or manually adjusted speed.
-
-ThermaLift AI dynamically changes motor frequency during different portions of the pumping stroke.
+Instead of treating the entire pumping stroke identically, ThermaLift AI divides the motion into control phases.
 
 ```mermaid
 flowchart LR
 
-    A["⬆️ Upstroke"] --> B["55–60 Hz"]
+    A["⬆️ UPSTROKE<br/>55–60 Hz"]
 
-    B --> C["🔄 Top Dead Center"]
+    A --> B["🔄 TOP DEAD CENTER<br/>S-Curve Deceleration"]
 
-    C --> D["Smooth S-Curve"]
+    B --> C["⬇️ DOWNSTROKE<br/>30–38 Hz"]
 
-    D --> E["⬇️ Downstroke"]
+    C --> D["🔄 BOTTOM DEAD CENTER<br/>Pre-Acceleration"]
 
-    E --> F["30–38 Hz"]
-
-    F --> G["🔄 Bottom Dead Center"]
-
-    G --> H["Pre-Acceleration"]
-
-    H --> A
+    D --> A
 ```
 
-### Control Objective
+### Control Strategy
 
-**Upstroke**
+#### ⬆️ Upstroke
 
 * Maximize liquid lifting
-* Maintain rod stress within limits
+* Maintain rod stress limits
 * Improve production rate
 
-**Downstroke**
+#### ⬇️ Downstroke
 
 * Reduce velocity
 * Compensate for viscous drag
-* Prevent rod floating
-* Maintain rod tension
+* Reduce rod-floating risk
+* Maintain carrier-bar tension
 
 ---
 
-# 💰 CSS & Economic Optimization
+# 💰 CSS & Economic Intelligence
 
-ThermaLift AI continuously evaluates Steam-Oil Ratio:
+ThermaLift AI evaluates the Steam-Oil Ratio:
 
 $$
 SOR =
-\frac{\text{CWE Volume of Steam Injected}}
+\frac{\text{Steam Injected}}
 {\text{Cumulative Oil Recovered}}
 $$
 
-The system also evaluates:
+and an operating margin:
 
 $$
 Net\ Profit =
-(q_o \times P_{oil})
+(q_oP_{oil})
 -
 (E_{lift}C_{kWh}
 +
@@ -527,81 +643,96 @@ C_{water}
 C_{maint})
 $$
 
-If economic performance falls below the configured threshold, the platform generates an:
+### Decision Loop
 
-> **Optimal CSS Cycle Cut-Off & Re-Steam Notification**
+```text
+Production Data
+      ↓
+Oil Recovery
+      +
+Steam Consumption
+      +
+Lift Energy
+      ↓
+SOR + Economic Analysis
+      ↓
+┌────────────────────────┐
+│ Continue CSS / Cut-Off │
+└────────────────────────┘
+```
 
 ---
 
-# 📊 Comparative Benchmark
+# 📊 Benchmark Matrix
 
-| Evaluation Dimension | Traditional Workflow | SCADA                | ThermaLift AI      |
-| -------------------- | -------------------- | -------------------- | ------------------ |
-| Thermal Monitoring   | Reactive             | Threshold-based      | Predictive         |
-| Viscosity Forecast   | ❌                    | ❌                    | ✅ PINN             |
-| Downhole Diagnostics | Manual               | Surface-only         | AI + Gibbs Solver  |
-| Rod-Float Prevention | ❌                    | Manual               | Closed-loop        |
-| VFD Control          | Fixed / Manual       | Static               | Dynamic            |
-| CSS Optimization     | Calendar-based       | Production threshold | Economic + SOR     |
-| Failure Detection    | Reactive             | Alarm-based          | Predictive         |
-| Energy Optimization  | Baseline             | Limited              | Asymmetric control |
+| Dimension            | Traditional | SCADA     | ThermaLift AI |
+| -------------------- | ----------- | --------- | ------------- |
+| Thermal Monitoring   | Reactive    | Threshold | Predictive    |
+| Viscosity Forecast   | ❌           | ❌         | 🧠 PINN       |
+| Downhole Diagnostics | Manual      | Surface   | 🤖 AI + Gibbs |
+| Rod-Float Prevention | ❌           | Manual    | ⚙️ Automated  |
+| VFD Control          | Fixed       | Static    | 🎛️ Dynamic   |
+| CSS Optimization     | Calendar    | Threshold | 💰 Economic   |
+| Failure Detection    | Reactive    | Alarm     | 🔮 Predictive |
+| Energy Optimization  | Baseline    | Limited   | ⚡ Asymmetric  |
 
 ---
 
-# 📡 Industrial Telemetry Architecture
+# 📡 Industrial Telemetry
 
 ```mermaid
 flowchart TD
 
-    A["Polished Rod Load Cell"]
-    B["Motor VFD Encoder"]
-    C["Downhole Pressure / Temperature"]
-    D["Wellhead PT / TT"]
+    A["🦾 Polished Rod Load Cell"]
+    B["⚙️ VFD Encoder"]
+    C["🌡️ Downhole P/T"]
+    D["📡 Wellhead P/T"]
 
-    A --> EDGE["⚙️ Industrial Edge"]
+    A --> EDGE
     B --> EDGE
     C --> EDGE
     D --> EDGE
 
-    EDGE --> INGEST["MQTT / Modbus-TCP"]
+    EDGE["Industrial Edge"]
 
-    INGEST --> API["FastAPI Ingestion"]
+    EDGE --> MQTT["MQTT / Modbus"]
 
-    API --> TS["TimescaleDB"]
+    MQTT --> API["FastAPI"]
 
-    API --> REDIS["Redis Cache"]
+    API --> DB["TimescaleDB"]
 
-    API --> ML["PyTorch AI Services"]
+    API --> CACHE["Redis"]
 
-    ML --> PINN["PINN Thermal Solver"]
+    API --> AI["PyTorch"]
 
-    ML --> CNN["1D-CNN Diagnostic Engine"]
+    AI --> PINN["PINN"]
+    AI --> CNN["1D-CNN"]
 
-    API --> CONTROL["Closed-Loop Controller"]
+    API --> CTRL["Control Dispatcher"]
 
-    CONTROL --> VFD["Adaptive VFD"]
+    CTRL --> VFD["Adaptive VFD"]
 
-    API --> DASH["ThermaLift Executive Cockpit"]
+    API --> UI["Realtime Cockpit"]
 ```
 
 ---
 
 # 🛠️ Technology Stack
 
-| Layer               | Technology                  | Purpose                 |
-| ------------------- | --------------------------- | ----------------------- |
-| AI / ML             | PyTorch 2.2                 | CNN + PINN models       |
-| Physics Engine      | C++ / WebAssembly           | Real-time Gibbs solver  |
-| Backend             | Python 3.11 + FastAPI       | API & processing        |
-| Task Processing     | Celery                      | Distributed workloads   |
-| Database            | PostgreSQL 16 + TimescaleDB | Time-series telemetry   |
-| Cache               | Redis                       | Real-time data          |
-| Messaging           | MQTT                        | Industrial telemetry    |
-| Industrial Protocol | Modbus / OPC-UA             | Edge communication      |
-| Frontend            | Web Canvas                  | Real-time visualization |
-| Realtime            | WebSocket                   | Live telemetry          |
-| Deployment          | Vercel / Cloud              | Web application         |
-| Security            | TLS 1.3 / JWT               | Secure communication    |
+| Layer         | Technology               | Role                   |
+| ------------- | ------------------------ | ---------------------- |
+| 🧠 AI / ML    | PyTorch 2.2              | PINN + CNN             |
+| ⚛️ Physics    | C++ / WebAssembly        | Gibbs solver           |
+| 🚀 Backend    | FastAPI / Python 3.11    | API + processing       |
+| 🔄 Workers    | Celery                   | Background workloads   |
+| 🗄️ Database  | PostgreSQL + TimescaleDB | Time-series data       |
+| ⚡ Cache       | Redis                    | Real-time state        |
+| 📡 Messaging  | MQTT                     | Telemetry              |
+| 🏭 Protocol   | Modbus / OPC-UA          | Industrial integration |
+| 🖥️ Frontend  | Web Canvas               | Visualization          |
+| 🔌 Realtime   | WebSocket                | Live updates           |
+| ☁️ Deployment | Vercel / Cloud           | Application            |
+| 🔐 Security   | TLS 1.3 / JWT            | Secure communication   |
 
 ---
 
@@ -609,140 +740,163 @@ flowchart TD
 
 ### Oil India Limited · Baghewala Heavy Oil Field
 
-| Parameter                   | Model Value          |
+| Parameter                   | Engineering Model    |
 | --------------------------- | -------------------- |
 | 🗺️ Basin                   | Bikaner-Nagaur Basin |
 | 🪨 Formation                | Jodhpur Sandstone    |
 | 🌡️ Reservoir Temperature   | 46–48.5°C            |
-| 🛢️ Crude API               | 17–19.2° API         |
+| 🛢️ API Gravity             | 17–19.2° API         |
 | 🧪 Dead Oil Viscosity       | 18,000–45,000 cP     |
 | 🔥 Stimulated Viscosity     | 180–380 cP           |
 | 🎯 Critical Float Viscosity | ~1,200 cP            |
 | 📍 TVD                      | 1,050–1,200 m        |
 
-These parameters form the engineering basis of the Baghewala digital-twin model. 
+These values are part of the project's engineering characterization of the target asset. 
 
 ---
 
-# 🔐 Safety & Cybersecurity
-
-ThermaLift AI incorporates independent safety mechanisms around the autonomous control loop.
-
-### Hardware Safety
-
-* 🔴 Independent over-load interlock
-* ⚡ Maximum-load protection
-* 🧵 Rod-slack emergency interlock
-* 🛑 Software-independent shutdown
-
-### Communication Safety
-
-* 📡 MQTT / OPC-UA heartbeat monitoring
-* ⏱️ Communication watchdog
-* 🔄 Safe fallback VFD mode
-
-### Cybersecurity
-
-* 🔐 Role-Based Access Control
-* 🔑 Signed JWT authentication
-* 🔒 TLS 1.3 encrypted communication
-* 📋 Immutable control audit logs
-
-The technical specification defines a SIL-2-oriented safety architecture and a 5-second communication watchdog fallback. 
-
----
-
-# 🧪 Operational Test Scenarios
-
-| Test                | Expected System Behavior    |
-| ------------------- | --------------------------- |
-| Normal pumping      | Stable operation            |
-| Reservoir cooling   | Thermal decline detected    |
-| Rising viscosity    | Viscosity warning generated |
-| Rod floating        | AI anomaly classification   |
-| Fluid pound         | Early anomaly detection     |
-| Gas interference    | Diagnostic classification   |
-| High rod load       | Safety intervention         |
-| Telemetry loss      | Safe VFD fallback           |
-| High SOR            | CSS optimization alert      |
-| Low economic margin | Re-steam recommendation     |
-
----
-
-# 📈 Key Engineering Targets
-
-According to the project specification, the target performance improvements include:
+# 🔐 Safety Architecture
 
 ```text
-⚡ Up to ~24% lifting energy reduction
-🛢️ Dynamic CSS optimization
-🦾 Predictive rod-float prevention
-📊 100 Hz telemetry / diagnostics
-🔮 Multi-day thermal forecasting
-🚨 Autonomous anomaly detection
+                 AUTONOMOUS CONTROL
+                        │
+                        ▼
+              ┌───────────────────┐
+              │  Control Decision  │
+              └─────────┬─────────┘
+                        │
+             ┌──────────┴──────────┐
+             ▼                     ▼
+        Software Logic       HARDWARE INTERLOCK
+             │                     │
+             ▼                     ▼
+        VFD Command          Load Protection
+             │               Rod Slack Trip
+             │                     │
+             └──────────┬──────────┘
+                        ▼
+                  🛑 SAFE STATE
 ```
 
-The documented benchmark specifies approximately **24.2% lifting-energy savings** and a modeled MTBF target exceeding **18.5 months**, compared against the benchmark scenarios defined in the technical specification. 
+### Safety Mechanisms
+
+* 🔴 Independent load protection
+* 🧵 Rod-slack emergency interlock
+* ⏱️ Communication watchdog
+* 🔄 Safe fallback VFD mode
+* 🔐 Role-based access
+* 🔒 TLS 1.3
+* 📋 Immutable audit logging
+
+The technical blueprint specifies hardware interlocks, a communication watchdog, TLS 1.3, JWT-based access control and audit logging. 
+
+---
+
+# 🧪 Operational Test Matrix
+
+| Scenario              | Expected Response         |
+| --------------------- | ------------------------- |
+| 🟢 Normal Pumping     | Stable operation          |
+| 🌡️ Reservoir Cooling | Thermal decline           |
+| 📈 Rising Viscosity   | Warning / forecast        |
+| 🦾 Rod Floating       | AI classification         |
+| 💥 Fluid Pound        | Anomaly detection         |
+| 🫧 Gas Interference   | Diagnostic classification |
+| 🔴 High Rod Load      | Safety intervention       |
+| 📡 Telemetry Loss     | Safe fallback             |
+| 💰 High SOR           | CSS optimization          |
+| 📉 Low Margin         | Re-steam recommendation   |
+
+---
+
+# 📈 Engineering Targets
+
+```text
+┌──────────────────────────────────────┐
+│        THERMALIFT AI TARGETS         │
+├──────────────────────────────────────┤
+│ ⚡ ~24% lifting-energy reduction     │
+│ 🔮 Multi-day thermal forecasting     │
+│ 📊 100 Hz telemetry / diagnostics    │
+│ 🦾 Predictive rod-float prevention   │
+│ 🚨 Autonomous anomaly detection      │
+│ 💰 Dynamic CSS optimization          │
+└──────────────────────────────────────┘
+```
+
+The documented benchmark specifies approximately **24.2% lifting-energy savings** and a modeled MTBF above **18.5 months** under the benchmark scenarios described in the project specification. These should be treated as project-model targets/results, not field-validated production measurements. 
 
 ---
 
 # 🚀 Roadmap
 
 ```text
-Digital Twin
-├── Multi-well digital twin
-├── Improved reservoir calibration
-├── Real-time production forecasting
-└── Automated model recalibration
+THERMAL DIGITAL TWIN
+│
+├── Multi-well simulation
+├── Reservoir calibration
+├── Production forecasting
+└── Automated recalibration
 
 AI
+│
 ├── More anomaly classes
 ├── Continuous PINN training
-├── Reinforcement learning control
-└── Explainable AI diagnostics
+├── Explainable diagnostics
+└── Advanced control learning
 
-Industrial Integration
+INDUSTRIAL
+│
 ├── SCADA integration
 ├── OPC-UA deployment
 ├── Edge GPU acceleration
-└── Industrial historian integration
+└── Industrial historian
 
-Operations
+OPERATIONS
+│
 ├── Multi-well control room
 ├── Predictive maintenance
 ├── Production optimization
-└── Automated workover recommendations
+└── Workover recommendation
 ```
 
 ---
 
-# 🏆 Smart India Hackathon Context
-
-* **Problem Statement:** Autonomous Heavy-Oil Production Optimization
-* **PS ID:** **26120**
-* **Target Organization:** **Oil India Limited**
-* **Target Asset:** **Baghewala Heavy Oil Field**
-* **Formation:** **Jodhpur Sandstone**
-* **Category:** Software
-* **Project:** **ThermaLift AI**
-
-The technical specification identifies PS ID **26120** and the Baghewala Heavy Oil Field as the target problem context. 
-
----
-
-# 👨‍💻 Author
+# 🔗 Quick Links
 
 <div align="center">
 
-### **Avin Raj**
+<a href="https://thermaliftai.vercel.app/">
+<img src="https://img.shields.io/badge/🚀%20Prototype-FF6B35?style=for-the-badge" />
+</a>
 
-Computer Science & Engineering
+<a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
+<img src="https://img.shields.io/badge/▶%20Demo-FF0000?style=for-the-badge&logo=youtube" />
+</a>
 
-Built as part of the **Smart India Hackathon 2026** project.
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
+<img src="https://img.shields.io/badge/📑%20PPT-4285F4?style=for-the-badge&logo=googledrive" />
+</a>
 
-<br />
+</div>
 
-⭐ If you find **ThermaLift AI** interesting, consider starring the repository.
+---
+
+# 👨‍💻 Team
+
+<div align="center">
+
+## 🚀 SuperNovaZ
+
+### **ThermaLift AI**
+
+**Smart India Hackathon 2026**
+
+**PS ID: SIH26120**
+
+<br>
+
+> **Synchronised. Predictive. Autonomous.**
 
 </div>
 
@@ -750,11 +904,11 @@ Built as part of the **Smart India Hackathon 2026** project.
 
 <div align="center">
 
-# 🛢️ ThermaLift AI
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,45:EA580C,75:172554,100:0B1220&height=150&section=footer&text=Predict%20the%20Heat.%20Optimize%20the%20Lift.&fontSize=27&fontColor=FFFFFF&animation=fadeIn" width="100%" />
 
-### **Predict the heat. Diagnose the rod. Optimize the lift.**
+<br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=FF6B35&center=true&vCenter=true&width=750&lines=Heavy+Oil+Intelligence;Physics+%2B+AI;Predictive+Diagnostics;Autonomous+VFD+Control;Well-to-Surface+Digital+Twin" alt="ThermaLift AI animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=800&color=FF8A3D&center=true&vCenter=true&width=700&height=45&lines=Heavy+Oil+Intelligence;Physics+%2B+AI;Predictive+Diagnostics;Autonomous+Control;Digital+Twin+for+Baghewala" />
 
 </div>
 
