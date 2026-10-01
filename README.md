@@ -48,7 +48,7 @@ sucker-rod dynamics and pumping operations in heavy-oil wells.**
 
 # 🛢️ What is ThermaLift AI?
 
-**ThermaLift AI** is a well-to-surface digital twin designed around the heavy-oil production challenge at the **Baghewala Heavy Oil Field**.
+*ThermaLift AI** is a well-to-surface digital twin designed around the heavy-oil production challenge at the **Baghewala Heavy Oil Field*.
 
 It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnostics and pumping control into one operational intelligence platform.
 
@@ -159,7 +159,7 @@ alt="Open Full Presentation"
 />
 </a>
 
-<br><br>
+<br>
 
 <sub>
 Click the PPT preview to open Google Drive, or use Previous / Next to jump to the corresponding page.
@@ -185,13 +185,13 @@ width="900"
 
 </a>
 
-<br><br>
+<br>
 
 <a href="https://thermaliftai.vercel.app/">
 <img src="https://img.shields.io/badge/🚀_OPEN_THERMALIFT_AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
-<br><br>
+<br>
 
 <sub>
 Click the preview image or the button above to launch the live ThermaLift AI prototype.
@@ -215,7 +215,7 @@ width="820"
 
 </a>
 
-<br><br>
+
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
 <img src="https://img.shields.io/badge/▶_WATCH_FULL_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
