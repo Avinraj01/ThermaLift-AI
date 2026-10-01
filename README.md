@@ -536,45 +536,74 @@ The objective is to identify the transition toward high-viscosity operating cond
 
 # 🦾 Sucker-Rod Dynamics
 
-The rod string is modeled using a damped 1D wave equation:
+ThermaLift AI models the sucker-rod string using a **damped 1D wave equation** to estimate downhole rod and pump behavior from surface measurements.
 
-$$
-\frac{\partial^2u}{\partial t^2}
-=
-a^2
-\frac{\partial^2u}{\partial x^2}
--
-c(x,t)
-\frac{\partial u}{\partial t}
-+
-g
-\left(
-1-\frac{\rho_{fluid}}{\rho_{steel}}
-\right)
-$$
+### 📐 Governing Equation
 
-### Model Flow
+
+<div align="center">
+
+<img
+src="https://latex.codecogs.com/svg.image?%5Cdpi%7B140%7D%20%5Cdisplaystyle%20%5Cfrac%7B%5Cpartial%5E2u%7D%7B%5Cpartial%20t%5E2%7D%3Da%5E2%5Cfrac%7B%5Cpartial%5E2u%7D%7B%5Cpartial%20x%5E2%7D-c%28x%2Ct%29%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%2Bg%5Cleft%281-%5Cfrac%7B%5Crho_%7Bfluid%7D%7D%7B%5Crho_%7Bsteel%7D%7D%5Cright%29"
+alt="Damped 1D wave equation"
+width="650"
+/>
+
+</div>
+
+### 🔍 Model Parameters
+
+| Symbol | Meaning |
+|---|---|
+| `u(x,t)` | Axial displacement of the rod string |
+| `a` | Stress-wave velocity |
+| `c(x,t)` | Viscosity-dependent damping coefficient |
+| `g` | Gravitational acceleration |
+| `ρ_fluid` | Fluid density |
+| `ρ_steel` | Steel density |
+
+### ⚙️ Model Flow
 
 ```text
-Surface Position
-       +
-Surface Load
-       +
-Fluid Viscosity
-       +
-Rod Properties
-       +
-Well Geometry
-       │
-       ▼
-Gibbs Wave Solver
-       │
-       ▼
-Downhole Pump Dynamics
-       │
-       ▼
-Dynamometer Card
-```
+┌──────────────────────┐
+│  Surface Position    │
+└──────────┬───────────┘
+           │
+           │
+┌──────────▼───────────┐
+│    Surface Load      │
+└──────────┬───────────┘
+           │
+           │
+┌──────────▼───────────┐
+│   Fluid Viscosity    │
+└──────────┬───────────┘
+           │
+           │
+┌──────────▼───────────┐
+│    Rod Properties    │
+└──────────┬───────────┘
+           │
+           │
+┌──────────▼───────────┐
+│    Well Geometry     │
+└──────────┬───────────┘
+           │
+           ▼
+┌────────────────────────────┐
+│    🧮 Gibbs Wave Solver    │
+└────────────┬───────────────┘
+             │
+             ▼
+┌────────────────────────────┐
+│   🦾 Downhole Rod/Pump     │
+│        Dynamics            │
+└────────────┬───────────────┘
+             │
+             ▼
+┌────────────────────────────┐
+│    📊 Dynamometer Card     │
+└────────────────────────────┘
 
 ---
 
