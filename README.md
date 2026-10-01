@@ -23,12 +23,7 @@
 <img src="https://img.shields.io/badge/📑_PROJECT_PPT-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
 </a>
 
-<br><br>
-<img src="https://img.shields.io/badge/PS_ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
-<img src="https://img.shields.io/badge/Theme-Smart_Automation-111827?style=flat-square&labelColor=EA580C" />
-<img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
-<img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
-<br><br>
+
 
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/PyTorch-2.2-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
@@ -49,7 +44,7 @@ sucker-rod dynamics and pumping operations in heavy-oil wells.**
 <br>
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="70%" />
 </div>
----
+
 
 # 🛢️ What is ThermaLift AI?
 
@@ -84,7 +79,6 @@ It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnosti
 <div align="center">
 
 ### 🇮🇳 Smart India Hackathon 2026 · SuperNovaZ
-
 |                          |                                                                       |
 | ------------------------ | --------------------------------------------------------------------- |
 | **Problem Statement ID** | `SIH26120`                                                            |
@@ -106,6 +100,12 @@ It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnosti
 <div align="center">
 
 ### 🏆 Smart India Hackathon 2026 · ThermaLift AI
+<br>
+<img src="https://img.shields.io/badge/PS_ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
+<img src="https://img.shields.io/badge/Theme-Smart_Automation-111827?style=flat-square&labelColor=EA580C" />
+<img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
+<img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
+<br>
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
 
