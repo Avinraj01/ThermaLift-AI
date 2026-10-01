@@ -1,32 +1,36 @@
 
 <div align="center">
 
-<!-- ========================= HERO ========================= -->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:172554,75:EA580C,100:F97316&height=220&section=header&text=ThermaLift%20AI&fontSize=62&fontColor=FFFFFF&fontAlignY=38&desc=Synchronised%20%E2%80%A2%20Predictive%20%E2%80%A2%20Autonomous&descAlignY=62&descSize=20&animation=fadeIn" width="100%" />
+<!-- ========================================================= -->
+<!--                         HERO                              -->
+<!-- ========================================================= -->
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=23&duration=2500&pause=700&color=FF8A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" />
+<img src="./src/assets/LOGO.png" alt="ThermaLift AI Logo" width="430"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=700&color=FF7A3D&center=true&vCenter=true&width=900&height=55&lines=🛢️+Well-to-Surface+Digital+Twin;🌡️+Thermal+Decay+Forecasting;🤖+AI-Powered+Rod+Diagnostics;⚙️+Asymmetric+VFD+Optimization;🔥+Heavy+Oil+%7C+CSS+%7C+SRP;🚀+Smart+India+Hackathon+2026" alt="ThermaLift AI animated tagline"/>
 
 <br><br>
 
 <a href="https://thermaliftai.vercel.app/">
-<img src="https://img.shields.io/badge/🚀%20LIVE%20PROTOTYPE-ThermaLift%20AI-FF6B35?style=for-the-badge&labelColor=111827" />
+<img src="https://img.shields.io/badge/🚀_LIVE_PROTOTYPE-ThermaLift_AI-FF6B35?style=for-the-badge&labelColor=111827" />
 </a>
-
+&nbsp;
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
-<img src="https://img.shields.io/badge/▶%20WATCH%20DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+<img src="https://img.shields.io/badge/▶_WATCH_DEMO-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
-
+&nbsp;
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
-<img src="https://img.shields.io/badge/📑%20PROJECT%20PRESENTATION-Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
+<img src="https://img.shields.io/badge/📑_PROJECT_PPT-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
 </a>
 
 <br><br>
 
-<img src="https://img.shields.io/badge/PS%20ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
-<img src="https://img.shields.io/badge/Theme-Smart%20Automation-111827?style=flat-square&labelColor=EA580C" />
+<img src="https://img.shields.io/badge/PS_ID-SIH26120-111827?style=flat-square&labelColor=FF6B35" />
+<img src="https://img.shields.io/badge/Theme-Smart_Automation-111827?style=flat-square&labelColor=EA580C" />
 <img src="https://img.shields.io/badge/Category-Software-111827?style=flat-square&labelColor=F97316" />
 <img src="https://img.shields.io/badge/Team-SuperNovaZ-111827?style=flat-square&labelColor=FB923C" />
 
@@ -37,13 +41,18 @@
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
 <img src="https://img.shields.io/badge/TimescaleDB-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MQTT-Industrial%20IoT-660066?style=flat-square" />
+<img src="https://img.shields.io/badge/MQTT-Industrial_IoT-660066?style=flat-square" />
 <img src="https://img.shields.io/badge/WebSocket-Realtime-111827?style=flat-square" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 
 <br><br>
 
-> **A physics + AI driven digital twin for optimizing thermal recovery, sucker-rod dynamics and pumping operations in heavy-oil wells.**
+> **Synchronised • Predictive • Autonomous**
+
+<br>
+
+**A physics + AI driven digital twin for optimizing thermal recovery,  
+sucker-rod dynamics and pumping operations in heavy-oil wells.**
 
 <br>
 
@@ -57,23 +66,27 @@
 
 **ThermaLift AI** is a well-to-surface digital twin designed around the heavy-oil production challenge at the **Baghewala Heavy Oil Field**.
 
-It connects four major layers:
+It connects thermal behavior, crude viscosity, sucker-rod dynamics, AI diagnostics and pumping control into one operational intelligence platform.
 
 ```text
-🌡️ THERMAL STATE
-       ↓
-🛢️ OIL VISCOSITY
-       ↓
-🦾 ROD / PUMP DYNAMICS
-       ↓
-🤖 AI DIAGNOSTICS
-       ↓
-⚙️ VFD OPTIMIZATION
-       ↓
-📊 PRODUCTION INTELLIGENCE
+                    🛢️ THERMALIFT AI
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+          ▼                ▼                ▼
+      🌡️ THERMAL       🦾 MECHANICAL     🤖 AI
+       MODEL             MODEL         DIAGNOSTICS
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                    🎯 DECISION ENGINE
+                           │
+                           ▼
+                     ⚙️ VFD CONTROL
+                           │
+                           ▼
+                    📊 PRODUCTION
 ````
-
-Instead of treating reservoir temperature, oil viscosity, rod dynamics and pumping control as separate problems, ThermaLift AI models them as one connected operational system.
 
 ---
 
@@ -103,39 +116,57 @@ Instead of treating reservoir temperature, oil viscosity, rod dynamics and pumpi
 
 <div align="center">
 
+### 🏆 Smart India Hackathon 2026 · ThermaLift AI
+
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
 
 <img
-src="https://drive.google.com/thumbnail?id=1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P&sz=w1600"
-alt="ThermaLift AI Smart India Hackathon 2026 Presentation"
+src="./src/assets/preview.png"
+alt="ThermaLift AI Project Presentation"
 width="900"
 />
 
 </a>
 
-<br><br>
+<br>
 
 ### 📖 Navigate the Presentation
 
+<table>
+<tr>
+
+<td align="left">
+
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=1">
-<img src="https://img.shields.io/badge/◀%20Previous%20Page-0B1220?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/◀_PREVIOUS_PAGE-111827?style=for-the-badge&logoColor=white" />
 </a>
 
-  
+</td>
+
+<td width="180"></td>
+
+<td align="right">
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing#page=2">
-<img src="https://img.shields.io/badge/Next%20Page%20▶-FF6B35?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/NEXT_PAGE_▶-FF6B35?style=for-the-badge&logoColor=white" />
+</a>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
+<img src="https://img.shields.io/badge/📄_OPEN_FULL_PRESENTATION-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
 </a>
 
 <br><br>
 
-<a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
-<img src="https://img.shields.io/badge/📄%20Open%20Full%20Presentation-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" />
-</a>
-
-<br>
-
-<sub>Click the presentation preview or navigation buttons to open the Google Drive document.</sub>
+<sub>
+Click the presentation preview to open the document, or use the Previous / Next controls to navigate directly to a page.
+</sub>
 
 </div>
 
@@ -145,10 +176,12 @@ width="900"
 
 <div align="center">
 
+### 🚀 Interactive Digital-Twin Prototype
+
 <a href="https://thermaliftai.vercel.app/">
 
 <img
-src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fthermaliftai.vercel.app%2F?w=1400&h=900"
+src="./src/assets/preview.png"
 alt="ThermaLift AI Live Prototype"
 width="900"
 />
@@ -158,12 +191,14 @@ width="900"
 <br><br>
 
 <a href="https://thermaliftai.vercel.app/">
-<img src="https://img.shields.io/badge/🚀%20OPEN%20THERMALIFT%20AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/🚀_OPEN_THERMALIFT_AI-FF6B35?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
 <br><br>
 
-<sub>Click the dashboard preview to launch the interactive prototype.</sub>
+<sub>
+Click the preview image or the button above to launch the live ThermaLift AI prototype.
+</sub>
 
 </div>
 
@@ -186,7 +221,7 @@ width="820"
 <br><br>
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
-<img src="https://img.shields.io/badge/▶%20WATCH%20FULL%20DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+<img src="https://img.shields.io/badge/▶_WATCH_FULL_DEMO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </a>
 
 </div>
@@ -198,76 +233,86 @@ width="820"
 Heavy-oil production becomes increasingly difficult as the reservoir cools after thermal stimulation.
 
 ```text
-              CYCLIC STEAM STIMULATION
-                       │
-                       ▼
-                 🔥 HOT RESERVOIR
-                       │
-                       ▼
-                🛢️ LOW VISCOSITY
-                       │
-                       ▼
-                 ⛽ PRODUCTION
-                       │
-                       ▼
-                🌡️ RESERVOIR COOLS
-                       │
-                       ▼
-               📈 VISCOSITY RISES
-                       │
-                       ▼
-              🦾 ROD DRAG INCREASES
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-       ⚠️ ROD FLOAT         ⚠️ FLUID POUND
-             │                   │
-             └─────────┬─────────┘
-                       ▼
-                 💥 MECHANICAL
-                    FAILURE
-                       │
-                       ▼
-                 💸 WORKOVER
+               🔥 CYCLIC STEAM STIMULATION
+                           │
+                           ▼
+                    🔥 HOT RESERVOIR
+                           │
+                           ▼
+                    🛢️ LOW VISCOSITY
+                           │
+                           ▼
+                       ⛽ PRODUCTION
+                           │
+                           ▼
+                    🌡️ RESERVOIR COOLS
+                           │
+                           ▼
+                    📈 VISCOSITY RISES
+                           │
+                           ▼
+                   🦾 ROD DRAG RISES
+                           │
+                 ┌─────────┴─────────┐
+                 ▼                   ▼
+            ⚠️ ROD FLOAT        ⚠️ FLUID POUND
+                 │                   │
+                 └─────────┬─────────┘
+                           ▼
+                    💥 MECHANICAL
+                       FAILURE
+                           │
+                           ▼
+                      💸 WORKOVER
 ```
 
-### ThermaLift AI changes the workflow:
+## 🔄 From Reactive → Predictive
 
 ```text
-REACTIVE
-Operator sees failure
-       ↓
-Manual intervention
-       ↓
-Production loss
-       ↓
-Workover
+┌───────────────────────┐
+│       TRADITIONAL     │
+├───────────────────────┤
+│ Failure               │
+│   ↓                   │
+│ Manual Detection      │
+│   ↓                   │
+│ Manual Intervention   │
+│   ↓                   │
+│ Production Loss       │
+│   ↓                   │
+│ Workover              │
+└───────────────────────┘
 
-                    ↓↓↓
 
-PREDICTIVE
-Thermal forecast
-       ↓
-Viscosity prediction
-       ↓
-Rod-dynamics analysis
-       ↓
-AI anomaly detection
-       ↓
-Adaptive VFD control
-       ↓
-Preventive intervention
+             ↓↓↓
+
+
+┌────────────────────────────┐
+│       THERMALIFT AI        │
+├────────────────────────────┤
+│ Thermal Forecast           │
+│        ↓                   │
+│ Viscosity Prediction       │
+│        ↓                   │
+│ Rod Dynamics               │
+│        ↓                   │
+│ AI Diagnostics             │
+│        ↓                   │
+│ Adaptive VFD               │
+│        ↓                   │
+│ Preventive Intervention    │
+└────────────────────────────┘
 ```
 
 ---
 
 # 🔄 Problem → Solution
 
-| Challenge                   | ThermaLift AI                        |
+| Challenge                   | ThermaLift AI Solution               |
 | --------------------------- | ------------------------------------ |
 | 🌡️ Reservoir cooling       | Physics-informed thermal forecasting |
 | 🛢️ Rising viscosity        | Viscosity-temperature modeling       |
-| 🦾 Rod floating             | AI-based anomaly detection           |
+| 🦾 Rod floating             | AI anomaly detection                 |
 | 💥 Fluid pound              | Dynamometer-card analysis            |
 | ⚙️ Fixed pumping speed      | Asymmetric VFD modulation            |
 | 🧑‍🔧 Reactive intervention | Predictive intervention              |
@@ -285,7 +330,7 @@ Preventive intervention
 | Reservoir cooling  | 1D-CNN            | Adaptive VFD      | Dynamometer cards |
 | Viscosity forecast | PINN              | Stroke modulation | SOR               |
 | CSS simulation     | Anomaly detection | Closed-loop logic | Energy            |
-| Heat decay         | Prediction        | Safety fallback   | Production        |
+| Heat decay         | Forecasting       | Safety fallback   | Production        |
 
 </div>
 
@@ -351,15 +396,15 @@ flowchart LR
     PT["Pressure / Temperature"]
     WH["Wellhead Sensors"]
 
-    LC --> EDGE
-    EN --> EDGE
-    PT --> EDGE
-    WH --> EDGE
-
     S --> LC
     S --> EN
     S --> PT
     S --> WH
+
+    LC --> EDGE
+    EN --> EDGE
+    PT --> EDGE
+    WH --> EDGE
 
     EDGE["⚙️ INDUSTRIAL EDGE"]
 
@@ -379,9 +424,9 @@ flowchart LR
 
     DECISION --> VFD["⚡ Adaptive VFD"]
 
-    CLOUD --> DASH["🖥️ Executive Cockpit"]
-
     VFD --> PUMP["🛢️ SRP / PUMP"]
+
+    CLOUD --> DASH["🖥️ Executive Cockpit"]
 ```
 
 ---
@@ -473,19 +518,22 @@ e^{-t/\tau_{decay}}
 \right]
 $$
 
-The engineering model identifies approximately:
+### 🎯 Critical Operating Region
 
 ```text
-Critical viscosity
-      ↓
+Critical Viscosity
+       │
+       ▼
    ~1,200 cP
-      ↓
+       │
+       ▼
 Temperature
-      ↓
-  ~67.5°C
+       │
+       ▼
+   ~67.5°C
 ```
 
-The goal is to identify the transition toward high-viscosity operating conditions before mechanical problems become severe.
+The objective is to identify the transition toward high-viscosity operating conditions before mechanical problems become severe.
 
 ---
 
@@ -508,23 +556,26 @@ g
 \right)
 $$
 
-### Model Inputs
+### Model Flow
 
 ```text
 Surface Position
-      +
+       +
 Surface Load
-      +
+       +
 Fluid Viscosity
-      +
+       +
 Rod Properties
-      +
+       +
 Well Geometry
-      ↓
+       │
+       ▼
 Gibbs Wave Solver
-      ↓
+       │
+       ▼
 Downhole Pump Dynamics
-      ↓
+       │
+       ▼
 Dynamometer Card
 ```
 
@@ -564,7 +615,7 @@ Input Tensor
                       ↓
                  Dense 128
                       ↓
-                 Softmax
+                  Softmax
                       ↓
             Condition Confidence
 ```
@@ -585,7 +636,7 @@ Input Tensor
 
 # ⚙️ Asymmetric VFD Control
 
-Instead of treating the entire pumping stroke identically, ThermaLift AI divides the motion into control phases.
+ThermaLift AI divides the pumping stroke into dynamic control phases.
 
 ```mermaid
 flowchart LR
@@ -601,15 +652,13 @@ flowchart LR
     D --> A
 ```
 
-### Control Strategy
-
-#### ⬆️ Upstroke
+### ⬆️ Upstroke
 
 * Maximize liquid lifting
 * Maintain rod stress limits
 * Improve production rate
 
-#### ⬇️ Downstroke
+### ⬇️ Downstroke
 
 * Reduce velocity
 * Compensate for viscous drag
@@ -647,15 +696,15 @@ $$
 
 ```text
 Production Data
-      ↓
-Oil Recovery
-      +
-Steam Consumption
-      +
-Lift Energy
-      ↓
+      │
+      ├── Oil Recovery
+      ├── Steam Consumption
+      └── Lift Energy
+      │
+      ▼
 SOR + Economic Analysis
-      ↓
+      │
+      ▼
 ┌────────────────────────┐
 │ Continue CSS / Cut-Off │
 └────────────────────────┘
@@ -751,31 +800,29 @@ flowchart TD
 | 🎯 Critical Float Viscosity | ~1,200 cP            |
 | 📍 TVD                      | 1,050–1,200 m        |
 
-These values are part of the project's engineering characterization of the target asset. 
-
 ---
 
 # 🔐 Safety Architecture
 
 ```text
                  AUTONOMOUS CONTROL
-                        │
-                        ▼
-              ┌───────────────────┐
-              │  Control Decision  │
-              └─────────┬─────────┘
-                        │
-             ┌──────────┴──────────┐
-             ▼                     ▼
+                         │
+                         ▼
+               ┌───────────────────┐
+               │  Control Decision │
+               └─────────┬─────────┘
+                         │
+              ┌──────────┴──────────┐
+              ▼                     ▼
         Software Logic       HARDWARE INTERLOCK
-             │                     │
-             ▼                     ▼
+              │                     │
+              ▼                     ▼
         VFD Command          Load Protection
-             │               Rod Slack Trip
-             │                     │
-             └──────────┬──────────┘
-                        ▼
-                  🛑 SAFE STATE
+              │               Rod Slack Trip
+              │                     │
+              └──────────┬──────────┘
+                         ▼
+                   🛑 SAFE STATE
 ```
 
 ### Safety Mechanisms
@@ -787,8 +834,6 @@ These values are part of the project's engineering characterization of the targe
 * 🔐 Role-based access
 * 🔒 TLS 1.3
 * 📋 Immutable audit logging
-
-The technical blueprint specifies hardware interlocks, a communication watchdog, TLS 1.3, JWT-based access control and audit logging. 
 
 ---
 
@@ -811,20 +856,22 @@ The technical blueprint specifies hardware interlocks, a communication watchdog,
 
 # 📈 Engineering Targets
 
+<div align="center">
+
 ```text
 ┌──────────────────────────────────────┐
-│        THERMALIFT AI TARGETS         │
+│          THERMALIFT AI               │
 ├──────────────────────────────────────┤
-│ ⚡ ~24% lifting-energy reduction     │
-│ 🔮 Multi-day thermal forecasting     │
-│ 📊 100 Hz telemetry / diagnostics    │
-│ 🦾 Predictive rod-float prevention   │
-│ 🚨 Autonomous anomaly detection      │
-│ 💰 Dynamic CSS optimization          │
+│ ⚡ ~24% Lifting-Energy Reduction     │
+│ 🔮 Multi-Day Thermal Forecasting     │
+│ 📊 100 Hz Telemetry / Diagnostics    │
+│ 🦾 Predictive Rod-Float Prevention   │
+│ 🚨 Autonomous Anomaly Detection      │
+│ 💰 Dynamic CSS Optimization          │
 └──────────────────────────────────────┘
 ```
 
-The documented benchmark specifies approximately **24.2% lifting-energy savings** and a modeled MTBF above **18.5 months** under the benchmark scenarios described in the project specification. These should be treated as project-model targets/results, not field-validated production measurements. 
+</div>
 
 ---
 
@@ -867,15 +914,19 @@ OPERATIONS
 <div align="center">
 
 <a href="https://thermaliftai.vercel.app/">
-<img src="https://img.shields.io/badge/🚀%20Prototype-FF6B35?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🚀_LIVE_PROTOTYPE-FF6B35?style=for-the-badge" />
 </a>
+
+ 
 
 <a href="https://www.youtube.com/watch?v=mCxYFCepW6E">
-<img src="https://img.shields.io/badge/▶%20Demo-FF0000?style=for-the-badge&logo=youtube" />
+<img src="https://img.shields.io/badge/▶_DEMO-FF0000?style=for-the-badge&logo=youtube" />
 </a>
 
+ 
+
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
-<img src="https://img.shields.io/badge/📑%20PPT-4285F4?style=for-the-badge&logo=googledrive" />
+<img src="https://img.shields.io/badge/📑_PPT-4285F4?style=for-the-badge&logo=googledrive" />
 </a>
 
 </div>
@@ -885,6 +936,10 @@ OPERATIONS
 # 👨‍💻 Team
 
 <div align="center">
+
+<img src="./src/assets/LOGO.png" alt="ThermaLift AI" width="300"/>
+
+<br><br>
 
 ## 🚀 SuperNovaZ
 
@@ -896,7 +951,7 @@ OPERATIONS
 
 <br>
 
-> **Synchronised. Predictive. Autonomous.**
+> **Synchronised • Predictive • Autonomous**
 
 </div>
 
@@ -906,10 +961,8 @@ OPERATIONS
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,45:EA580C,75:172554,100:0B1220&height=150&section=footer&text=Predict%20the%20Heat.%20Optimize%20the%20Lift.&fontSize=27&fontColor=FFFFFF&animation=fadeIn" width="100%" />
 
-<br>
+<br><br>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=800&color=FF8A3D&center=true&vCenter=true&width=700&height=45&lines=Heavy+Oil+Intelligence;Physics+%2B+AI;Predictive+Diagnostics;Autonomous+Control;Digital+Twin+for+Baghewala" />
 
 </div>
-
-
