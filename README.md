@@ -44,16 +44,11 @@
 > **Synchronised • Predictive • Autonomous**
 
 <br>
-
 **A physics + AI driven digital twin for optimizing thermal recovery,  
 sucker-rod dynamics and pumping operations in heavy-oil wells.**
-
 <br>
-
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="70%" />
-
 </div>
-
 ---
 
 # 🛢️ What is ThermaLift AI?
@@ -121,10 +116,7 @@ width="900"
 />
 
 </a>
-
-<br><br>
-
-### 📖 Navigate the Presentation
+ 📖 Navigate the Presentation
 
 <table align="center" width="900">
 <tr>
@@ -161,12 +153,10 @@ alt="Next Page"
 <br>
 
 <a href="https://drive.google.com/file/d/1o4O2vdlLwOTV7i9YH4qYA00YrnxKNb7P/view?usp=sharing">
-
 <img
 src="https://img.shields.io/badge/📄%20OPEN%20FULL%20PRESENTATION-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"
 alt="Open Full Presentation"
 />
-
 </a>
 
 <br><br>
