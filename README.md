@@ -310,8 +310,6 @@ width="900"
 
 </a>
 
-<br>
-
 ### 📖 Navigate the Presentation
 
 <table align="center" width="900">
